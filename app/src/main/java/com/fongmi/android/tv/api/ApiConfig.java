@@ -126,7 +126,7 @@ public class ApiConfig {
             App.post(() -> callback.error("关注【码上放生】公众号, 获取免费更新"));
             String url = "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json";
             // checkJson(JsonParser.parseString(Decoder.getJson(url)).getAsJsonObject(), callback);
-            config.setUrl(url)
+            config.setUrl(url);
             checkJson(JsonParser.parseString(Decoder.getJson(getUrl())).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) App.post(() -> callback.error(""));
