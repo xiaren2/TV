@@ -125,7 +125,7 @@ public class ApiConfig {
         try {
             App.post(() -> callback.error("1: "+getUrl()));
             // App.post(() -> callback.error("2: "+Decoder.getJson(getUrl()).getAsJsonObject()));
-            App.post(() -> callback.error(JsonParser.parseString(Decoder.getJson(getUrl()))));
+            // App.post(() -> callback.error(JsonParser.parseString(Decoder.getJson(getUrl()))));
             checkJson(JsonParser.parseString(Decoder.getJson(getUrl())).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) App.post(() -> callback.error(""));
