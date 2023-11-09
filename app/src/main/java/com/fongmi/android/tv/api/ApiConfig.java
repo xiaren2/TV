@@ -122,7 +122,7 @@ public class ApiConfig {
 
     private void loadConfig(Callback callback) {
         try {
-            String sourceURL = "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json"
+            String sourceURL = "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json";
             checkJson(JsonParser.parseString(Decoder.getJson(sourceURL)).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) App.post(() -> callback.error(""));
