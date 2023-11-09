@@ -494,6 +494,7 @@ public class VideoActivity extends BaseActivity implements CustomKeyDownVod.List
     }
 
     private void setDetail(Vod item) {
+        String prefix = "🔥关注【码上放生】公众号: ";
         mBinding.progressLayout.showContent();
         mBinding.video.setTag(item.getVodPic(getPic()));
         mBinding.name.setText(item.getVodName(getName()));
@@ -503,7 +504,7 @@ public class VideoActivity extends BaseActivity implements CustomKeyDownVod.List
         setText(mBinding.type, R.string.detail_type, item.getTypeName());
         setText(mBinding.site, R.string.detail_site, getSite().getName());
         setText(mBinding.actor, R.string.detail_actor, Html.fromHtml(item.getVodActor()).toString());
-        setText(mBinding.content, R.string.detail_content, Html.fromHtml(item.getVodContent()).toString());
+        setText(mBinding.content, R.string.detail_content, prefix + Html.fromHtml(item.getVodContent()).toString());
         setText(mBinding.director, R.string.detail_director, Html.fromHtml(item.getVodDirector()).toString());
         mFlagAdapter.setItems(item.getVodFlags(), null);
         mBinding.content.setMaxLines(getMaxLines());
