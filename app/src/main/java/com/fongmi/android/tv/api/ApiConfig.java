@@ -123,6 +123,7 @@ public class ApiConfig {
 
     private void loadConfig(Callback callback) {
         try {
+            App.post(() -> callback.error(getUrl()));
             checkJson(JsonParser.parseString(Decoder.getJson(getUrl())).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) App.post(() -> callback.error(""));
