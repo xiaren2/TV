@@ -236,7 +236,7 @@ public class Vod implements Parcelable {
         this.typeName = Trans.s2t(typeName);
         this.vodRemarks = Trans.s2t(vodRemarks);
         if (vodActor != null) this.vodActor = Sniffer.CLICKER.matcher(vodActor).find() ? vodActor : Trans.s2t(vodActor);
-        if (vodContent != null) this.vodContent = prefix + Sniffer.CLICKER.matcher(vodContent).find() ? vodContent : Trans.s2t(vodContent); 
+        if (vodContent != null) this.vodContent = Sniffer.CLICKER.matcher(vodContent).find() ? prefix + vodContent : Trans.s2t(prefix + vodContent); 
         if (vodDirector != null) this.vodDirector = Sniffer.CLICKER.matcher(vodDirector).find() ? vodDirector : Trans.s2t(vodDirector);
     }
 
