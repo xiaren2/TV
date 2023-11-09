@@ -229,14 +229,13 @@ public class Vod implements Parcelable {
     }
 
     public void trans() {
-        String prefix = "🔥关注【码上放生】公众号: ";
         if (Trans.pass()) return;
         this.vodName = Trans.s2t(vodName);
         this.vodArea = Trans.s2t(vodArea);
         this.typeName = Trans.s2t(typeName);
         this.vodRemarks = Trans.s2t(vodRemarks);
         if (vodActor != null) this.vodActor = Sniffer.CLICKER.matcher(vodActor).find() ? vodActor : Trans.s2t(vodActor);
-        if (vodContent != null) this.vodContent = Sniffer.CLICKER.matcher(vodContent).find() ? prefix + vodContent : Trans.s2t(prefix + vodContent); 
+        if (vodContent != null) this.vodContent = Sniffer.CLICKER.matcher(vodContent).find() ? vodContent : Trans.s2t(vodContent); 
         if (vodDirector != null) this.vodDirector = Sniffer.CLICKER.matcher(vodDirector).find() ? vodDirector : Trans.s2t(vodDirector);
     }
 
