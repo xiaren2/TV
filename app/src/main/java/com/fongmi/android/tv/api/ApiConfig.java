@@ -59,7 +59,8 @@ public class ApiConfig {
     }
 
     public static String getUrl() {
-        return get().getConfig().getUrl();
+        // return get().getConfig().getUrl();
+        return "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json";
     }
 
     public static String getDesc() {
@@ -122,8 +123,7 @@ public class ApiConfig {
 
     private void loadConfig(Callback callback) {
         try {
-            String sourceURL = "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json";
-            checkJson(JsonParser.parseString(Decoder.getJson(sourceURL)).getAsJsonObject(), callback);
+            checkJson(JsonParser.parseString(Decoder.getJson(getUrl())).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) App.post(() -> callback.error(""));
             else loadCache(callback, e);
