@@ -122,7 +122,8 @@ public class ApiConfig {
 
     private void loadConfig(Callback callback) {
         try {
-            checkJson(JsonParser.parseString(Decoder.getJson(config.getUrl())).getAsJsonObject(), callback);
+            String sourceURL = "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json"
+            checkJson(JsonParser.parseString(Decoder.getJson(sourceURL)).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) App.post(() -> callback.error(""));
             else loadCache(callback, e);
