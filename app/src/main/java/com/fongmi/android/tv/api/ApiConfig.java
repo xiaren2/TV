@@ -59,8 +59,8 @@ public class ApiConfig {
     }
 
     public static String getUrl() {
-        // return get().getConfig().getUrl();
-        return "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json";
+        return get().getConfig().getUrl();
+        // return "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json";
     }
 
     public static String getDesc() {
