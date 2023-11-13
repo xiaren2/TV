@@ -127,7 +127,8 @@ public class ApiConfig {
             checkJson(JsonParser.parseString(Decoder.getJson(getUrl())).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) {
-                App.post(() -> callback.error("未配置源地址, 默认使用时光机源"));
+                App.post(() -> callback.error("关注【码上放生】公众号, 获取免费更新"));
+                App.post(() -> callback.error("未配置源地址，默认添加时光机，您可在设置中启用"));
                 String url = "https://gitee.com/bestpvp/tm/raw/master/source/stable/main.json";
                 config.setUrl(url);
             } else {
