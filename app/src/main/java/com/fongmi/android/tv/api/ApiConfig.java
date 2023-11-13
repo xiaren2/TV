@@ -124,13 +124,15 @@ public class ApiConfig {
     private void loadConfig(Callback callback) {
         try {
             App.post(() -> callback.error("关注【码上放生】公众号, 获取免费更新"));
-            String url = "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json";
-            // checkJson(JsonParser.parseString(Decoder.getJson(url)).getAsJsonObject(), callback);
-            config.setUrl(url);
             checkJson(JsonParser.parseString(Decoder.getJson(getUrl())).getAsJsonObject(), callback);
         } catch (Throwable e) {
-            if (TextUtils.isEmpty(config.getUrl())) App.post(() -> callback.error(""));
-            else loadCache(callback, e);
+            if (TextUtils.isEmpty(config.getUrl())) {
+                App.post(() -> callback.error("未配置源地址, 默认使用时光机源"));
+                String url = "https://gitee.com/bestpvp/tm/raw/master/source/stable/main.json";
+                config.setUrl(url);
+            } else {
+                loadCache(callback, e);
+            }
             LiveConfig.get().load();
             e.printStackTrace();
         }
