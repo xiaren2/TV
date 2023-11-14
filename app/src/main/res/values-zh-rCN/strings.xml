@@ -1,7 +1,7 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
     <!-- App -->
-    <string name="app_name">影视</string>
+    <string name="app_name">公瑾</string>
     <string name="app_exit">再按一次返回键退出</string>
 
     <!-- Vod -->
@@ -84,7 +84,7 @@
     <string name="setting_cache">缓存</string>
     <string name="setting_backup">备份</string>
     <string name="setting_backup_auto">自动</string>
-    <string name="setting_version">版本</string>
+    <string name="setting_version">关注 [码上放生] 公众号</string>
     <string name="setting_storage">权限</string>
     <string name="setting_off">关闭</string>
     <string name="setting_on">开启</string>
