@@ -1,7 +1,7 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
     <!-- App -->
-    <string name="app_name">公瑾</string>
+    <string name="app_name">影视</string>
     <string name="app_exit">再按一次返回键退出</string>
 
     <!-- Vod -->
@@ -71,6 +71,7 @@
     <string name="setting_player_http">连线方式</string>
     <string name="setting_player_buffer">缓冲时间</string>
     <string name="setting_player_tunnel">隧道模式</string>
+    <string name="setting_player_caption">字幕样式</string>
     <string name="setting_player_subtitle">字幕大小</string>
     <string name="setting_player_background">后台播放</string>
     <string name="setting_decode">解码方式</string>
@@ -81,7 +82,9 @@
     <string name="setting_doh">DoH</string>
     <string name="setting_proxy">Proxy</string>
     <string name="setting_cache">缓存</string>
-    <string name="setting_version">关注【码上放生】公众号</string>
+    <string name="setting_backup">备份</string>
+    <string name="setting_backup_auto">自动</string>
+    <string name="setting_version">版本</string>
     <string name="setting_storage">权限</string>
     <string name="setting_off">关闭</string>
     <string name="setting_on">开启</string>
@@ -93,6 +96,7 @@
     <string name="search_hot">热搜</string>
 
     <!-- Dialog -->
+    <string name="dialog_edit">修改</string>
     <string name="dialog_positive">确定</string>
     <string name="dialog_negative">取消</string>
     <string name="dialog_config_hint">请输入接口…</string>
@@ -171,6 +175,17 @@
     <string-array name="select_flag">
         <item>自动</item>
         <item>手动</item>
+    </string-array>
+
+    <string-array name="select_caption">
+        <item>预设</item>
+        <item>系统</item>
+    </string-array>
+
+    <string-array name="select_track">
+        <item>选择音轨</item>
+        <item>选择视轨</item>
+        <item>选择字幕</item>
     </string-array>
 
 </resources>
