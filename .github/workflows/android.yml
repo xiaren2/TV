@@ -11,6 +11,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          gradle-version: '7.4.2'  # 设置为您项目所需的Gradle版本
+      - name: Clean and build
+        run: |
+          ./gradlew clean
+          ./gradlew assembleRelease
+      - name: Build with detailed logs
+        run: ./gradlew assembleRelease --info
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
