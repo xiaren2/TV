@@ -1,4 +1,4 @@
-name: Test Build
+name: new test Build
 
 on:
   workflow_dispatch:
@@ -13,6 +13,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
+          distribution: 'adopt'
 
       - name: Build With Gradle
         run: |
