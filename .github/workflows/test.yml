@@ -1,0 +1,31 @@
+name: Test Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up JDK and Gradle
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+
+      - name: Build With Gradle
+        run: |
+          chmod +x gradlew
+          ./gradlew clean assembleRelease --parallel --daemon --warning-mode all
+
+      - name: Prepare App
+        run: |
+          mkdir -p ${{ github.workspace }}/apk/
+          find . -name "*.apk" -exec mv {} ${{ github.workspace }}/apk/ \;
+
+      - name: Upload App To Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: com.github.tvbox.osc.fm
+          path: ${{ github.workspace }}/apk/*
