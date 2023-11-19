@@ -11,12 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Clean and build
-        run: |
-          ./gradlew clean
-          ./gradlew assembleRelease
-      - name: Build with detailed logs
-        run: ./gradlew assembleRelease --info
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -35,6 +29,7 @@ jobs:
       - name: Build With Gradle
         run: |
           chmod +x gradlew
+          ./gradlew clean
           ./gradlew assemblerelease --build-cache --parallel --daemon --warning-mode all
       - name: Prepare App
         run: |
