@@ -46,5 +46,5 @@ jobs:
       - name: Upload App To Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: com.github.tvbox.osc.fm
+          name: com.github.tvbox.zichu
           path: ${{ github.workspace }}/apk/*
