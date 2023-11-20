@@ -65,7 +65,7 @@ android {
 
     android.applicationVariants.configureEach { variant ->
         variant.outputs.configureEach { output ->
-            outputFileName = "gongjin-${variant.productFlavors[0].name}-${variant.productFlavors[1].name}-${variant.productFlavors[2].name}-${variant.defaultConfig[3].name}.apk"
+            outputFileName = "gongjin-${variant.productFlavors[0].name}-${variant.productFlavors[1].name}-${variant.productFlavors[2].name}.apk"
         }
     }
 
