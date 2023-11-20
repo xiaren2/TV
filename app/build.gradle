@@ -7,7 +7,7 @@ android {
     flavorDimensions = ["mode", "api", "abi"]
 
     defaultConfig {
-        applicationId "com.github.tvbox.zichu"
+        applicationId "com.github.tvbox.gongjin"
         minSdk 21
         targetSdk 28
         versionCode 208
