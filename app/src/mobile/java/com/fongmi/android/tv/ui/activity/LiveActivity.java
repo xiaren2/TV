@@ -255,6 +255,7 @@ public class LiveActivity extends BaseActivity implements CustomKeyDownLive.List
     }
 
     private void getLive() {
+        mBinding.control.action.home.setText(getHome().getName());
         mPlayers.setPlayer(getPlayerType(-1));
         mViewModel.getLive(getHome());
         setPlayerView();
@@ -268,12 +269,13 @@ public class LiveActivity extends BaseActivity implements CustomKeyDownLive.List
         for (Group group : live.getGroups()) (group.isHidden() ? mHides : items).add(group);
         mGroupAdapter.addAll(items);
         setPosition(LiveConfig.get().find(items));
-        mBinding.control.action.home.setText(live.getName());
     }
 
     private void setWidth(Live live) {
+        int base = ResUtil.dp2px(live.hasLogo() ? 90 : 45);
         for (Group group : live.getGroups()) live.setWidth(Math.max(live.getWidth(), ResUtil.getTextWidth(group.getName(), 14)));
-        mBinding.group.getLayoutParams().width = Math.min(live.getWidth() + ResUtil.dp2px(live.hasLogo() ? 90 : 45), ResUtil.dp2px(260));
+        mBinding.group.getLayoutParams().width = live.getWidth() == 0 ? 0 : Math.min(live.getWidth() + base, ResUtil.dp2px(200));
+        mBinding.divide.setVisibility(live.getWidth() == 0 ? View.GONE : View.VISIBLE);
     }
 
     private void setPosition(int[] position) {
@@ -487,7 +489,9 @@ public class LiveActivity extends BaseActivity implements CustomKeyDownLive.List
     }
 
     private void showEpg() {
-        mBinding.widget.play.setText(mChannel.getData().getEpg());
+        String epg = mChannel.getData().getEpg();
+        mBinding.widget.name.setMaxEms(epg.isEmpty() ? mChannel.getName().length() : 12);
+        mBinding.widget.play.setText(epg);
         setMetadata();
     }
 
@@ -638,7 +642,8 @@ public class LiveActivity extends BaseActivity implements CustomKeyDownLive.List
         mBinding.control.right.lock.setImageResource(isLock() ? R.drawable.ic_control_lock_on : R.drawable.ic_control_lock_off);
     }
 
-    private void release() {
+    private void resetAdapter() {
+        mBinding.divide.setVisibility(View.GONE);
         mChannelAdapter.clear();
         mGroupAdapter.clear();
         mHides.clear();
@@ -654,8 +659,8 @@ public class LiveActivity extends BaseActivity implements CustomKeyDownLive.List
     public void setLive(Live item) {
         LiveConfig.get().setHome(item);
         mPlayers.stop();
+        resetAdapter();
         hideControl();
-        release();
         getLive();
     }
 
@@ -742,8 +747,8 @@ public class LiveActivity extends BaseActivity implements CustomKeyDownLive.List
     }
 
     private void setMetadata() {
-        String title = mChannel == null ? "" : mChannel.getName();
-        String artist = mChannel == null ? "" : mChannel.getData().getEpg();
+        String title = mBinding.widget.name.getText().toString();
+        String artist = mBinding.widget.play.getText().toString();
         MediaMetadataCompat.Builder builder = new MediaMetadataCompat.Builder();
         builder.putString(MediaMetadataCompat.METADATA_KEY_TITLE, title);
         builder.putString(MediaMetadataCompat.METADATA_KEY_ARTIST, artist);
@@ -834,12 +839,14 @@ public class LiveActivity extends BaseActivity implements CustomKeyDownLive.List
     }
 
     private void prevLine() {
+        if (mChannel == null) return;
         mChannel.prevLine();
         showInfo();
         fetch();
     }
 
     private void nextLine(boolean show) {
+        if (mChannel == null) return;
         mChannel.nextLine();
         if (show) showInfo();
         else setInfo();

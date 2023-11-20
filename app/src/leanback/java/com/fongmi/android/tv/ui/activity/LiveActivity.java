@@ -213,10 +213,10 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
         mBinding.control.invert.setActivated(Setting.isInvert());
         mBinding.control.across.setActivated(Setting.isAcross());
         mBinding.control.change.setActivated(Setting.isChange());
-        mBinding.control.home.setVisibility(LiveConfig.isOnly() ? View.GONE : View.VISIBLE);
         findViewById(R.id.timeBar).setNextFocusUpId(R.id.player);
         getExo().getSubtitleView().setStyle(ExoUtil.getCaptionStyle());
         getIjk().getSubtitleView().setStyle(ExoUtil.getCaptionStyle());
+        mBinding.control.home.setVisibility(LiveConfig.isOnly() ? View.GONE : View.VISIBLE);
     }
 
     private void setScale(int scale) {
@@ -236,6 +236,7 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
     }
 
     private void getLive() {
+        mBinding.control.home.setText(getHome().getName());
         mPlayers.setPlayer(getPlayerType(-1));
         mViewModel.getLive(getHome());
         setPlayerView();
@@ -249,12 +250,13 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
         for (Group group : live.getGroups()) (group.isHidden() ? mHides : items).add(group);
         mGroupAdapter.setItems(items, null);
         setPosition(LiveConfig.get().find(items));
-        mBinding.control.home.setText(live.getName());
     }
 
     private void setWidth(Live live) {
+        int base = ResUtil.dp2px(live.hasLogo() ? 98 : 50);
         for (Group group : live.getGroups()) live.setWidth(Math.max(live.getWidth(), ResUtil.getTextWidth(group.getName(), 16)));
-        mBinding.group.getLayoutParams().width = Math.min(live.getWidth() + ResUtil.dp2px(live.hasLogo() ? 98 : 50), ResUtil.dp2px(260));
+        mBinding.group.getLayoutParams().width = live.getWidth() == 0 ? 0 : Math.min(live.getWidth() + base, ResUtil.dp2px(200));
+        mBinding.divide.setVisibility(live.getWidth() == 0 ? View.GONE : View.VISIBLE);
     }
 
     private void setPosition(int[] position) {
@@ -439,7 +441,9 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
     }
 
     private void showEpg() {
-        mBinding.widget.play.setText(mChannel.getData().getEpg());
+        String epg = mChannel.getData().getEpg();
+        mBinding.widget.name.setMaxEms(epg.isEmpty() ? mChannel.getName().length() : 12);
+        mBinding.widget.play.setText(epg);
         setMetadata();
     }
 
@@ -578,7 +582,8 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
         showProgress();
     }
 
-    private void release() {
+    private void resetAdapter() {
+        mBinding.divide.setVisibility(View.GONE);
         mChannelAdapter.clear();
         mGroupAdapter.clear();
         mHides.clear();
@@ -594,8 +599,8 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
     public void setLive(Live item) {
         LiveConfig.get().setHome(item);
         mPlayers.stop();
+        resetAdapter();
         hideControl();
-        release();
         getLive();
     }
 
@@ -673,8 +678,8 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
     }
 
     private void setMetadata() {
-        String title = mChannel == null ? "" : mChannel.getName();
-        String artist = mChannel == null ? "" : mChannel.getData().getEpg();
+        String title = mBinding.widget.name.getText().toString();
+        String artist = mBinding.widget.play.getText().toString();
         MediaMetadataCompat.Builder builder = new MediaMetadataCompat.Builder();
         builder.putString(MediaMetadataCompat.METADATA_KEY_TITLE, title);
         builder.putString(MediaMetadataCompat.METADATA_KEY_ARTIST, artist);
@@ -740,12 +745,14 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
     }
 
     private void prevLine() {
+        if (mChannel == null) return;
         mChannel.prevLine();
         showInfo();
         fetch();
     }
 
     private void nextLine(boolean show) {
+        if (mChannel == null) return;
         mChannel.nextLine();
         if (show) showInfo();
         else setInfo();
