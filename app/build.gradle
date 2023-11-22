@@ -26,9 +26,9 @@ android {
         mobile {
             dimension "mode"
         }
-        java {
-            dimension "api"
-        }
+        // java {
+        //     dimension "api"
+        // }
         python {
             dimension "api"
         }
