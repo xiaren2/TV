@@ -1,6 +1,10 @@
 name: Test Build
 
 on:
+  push:
+    branches:
+      - release
+      - kitkat
   workflow_dispatch:
 
 jobs:
