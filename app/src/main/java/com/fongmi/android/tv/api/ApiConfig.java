@@ -123,7 +123,7 @@ public class ApiConfig {
 
     private void loadConfig(Callback callback) {
         try {
-            App.post(() -> callback.error("关注【码上放生】公众号, 获取免费更新"));
+            App.post(() -> callback.error("本软件为免费开源项目, 以学习交流为目的, 所有内容来自网络公开数据, 不涉及制作、上传及储存内容, 如有广告均为三方提供, 请勿相信!\n关注[码上放生]公众号, 获取最新的[时光机]数据源"));
             checkJson(JsonParser.parseString(Decoder.getJson(getUrl())).getAsJsonObject(), callback);
         } catch (Throwable e) {
             if (TextUtils.isEmpty(config.getUrl())) {
