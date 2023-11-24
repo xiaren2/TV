@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.adapter;
+package com.github.tvbox.gongjin.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,11 +7,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.fongmi.android.tv.Product;
-import com.fongmi.android.tv.bean.Keep;
-import com.fongmi.android.tv.databinding.AdapterVodBinding;
-import com.fongmi.android.tv.utils.ImgUtil;
-import com.fongmi.android.tv.utils.ResUtil;
+import com.github.tvbox.gongjin.Product;
+import com.github.tvbox.gongjin.bean.Keep;
+import com.github.tvbox.gongjin.databinding.AdapterVodBinding;
+import com.github.tvbox.gongjin.utils.ImgUtil;
+import com.github.tvbox.gongjin.utils.ResUtil;
 
 import java.util.ArrayList;
 import java.util.List;

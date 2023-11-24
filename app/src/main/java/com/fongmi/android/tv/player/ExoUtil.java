@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.player;
+package com.github.tvbox.gongjin.player;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -36,13 +36,13 @@ import androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory;
 import androidx.media3.extractor.ts.TsExtractor;
 import androidx.media3.ui.CaptionStyleCompat;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.Setting;
-import com.fongmi.android.tv.bean.Channel;
-import com.fongmi.android.tv.bean.Drm;
-import com.fongmi.android.tv.bean.Result;
-import com.fongmi.android.tv.bean.Sub;
-import com.fongmi.android.tv.utils.UrlUtil;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.Setting;
+import com.github.tvbox.gongjin.bean.Channel;
+import com.github.tvbox.gongjin.bean.Drm;
+import com.github.tvbox.gongjin.bean.Result;
+import com.github.tvbox.gongjin.bean.Sub;
+import com.github.tvbox.gongjin.utils.UrlUtil;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Path;
 import com.github.catvod.utils.Util;

@@ -1,11 +1,11 @@
-package com.fongmi.android.tv.ui.activity;
+package com.github.tvbox.gongjin.ui.activity;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.viewbinding.ViewBinding;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.databinding.ActivityCrashBinding;
-import com.fongmi.android.tv.ui.base.BaseActivity;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.databinding.ActivityCrashBinding;
+import com.github.tvbox.gongjin.ui.base.BaseActivity;
 
 import java.util.Objects;
 

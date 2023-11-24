@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.custom;
+package com.github.tvbox.gongjin.ui.custom;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.fongmi.android.tv.R;
+import com.github.tvbox.gongjin.R;
 
 public class CustomRecyclerView extends RecyclerView {
 

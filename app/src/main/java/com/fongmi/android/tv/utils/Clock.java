@@ -1,8 +1,8 @@
-package com.fongmi.android.tv.utils;
+package com.github.tvbox.gongjin.utils;
 
 import android.widget.TextView;
 
-import com.fongmi.android.tv.App;
+import com.github.tvbox.gongjin.App;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

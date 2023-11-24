@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.event;
+package com.github.tvbox.gongjin.event;
 
 import androidx.media3.common.Player;
 

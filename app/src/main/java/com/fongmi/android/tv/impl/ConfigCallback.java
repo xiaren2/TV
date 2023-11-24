@@ -1,6 +1,6 @@
-package com.fongmi.android.tv.impl;
+package com.github.tvbox.gongjin.impl;
 
-import com.fongmi.android.tv.bean.Config;
+import com.github.tvbox.gongjin.bean.Config;
 
 public interface ConfigCallback {
 

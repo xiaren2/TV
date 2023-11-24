@@ -1,9 +1,9 @@
-package com.fongmi.android.tv.bean;
+package com.github.tvbox.gongjin.bean;
 
 import android.text.TextUtils;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.utils.UrlUtil;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.utils.UrlUtil;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 

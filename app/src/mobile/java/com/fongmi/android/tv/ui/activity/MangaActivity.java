@@ -1,8 +1,8 @@
-package com.fongmi.android.tv.ui.activity;
+package com.github.tvbox.gongjin.ui.activity;
 
 import androidx.viewbinding.ViewBinding;
 
-import com.fongmi.android.tv.ui.base.BaseActivity;
+import com.github.tvbox.gongjin.ui.base.BaseActivity;
 
 public class MangaActivity extends BaseActivity {
 

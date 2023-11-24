@@ -1,13 +1,13 @@
-package com.fongmi.android.tv.api;
+package com.github.tvbox.gongjin.api;
 
 import android.util.Base64;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.bean.Channel;
-import com.fongmi.android.tv.bean.Drm;
-import com.fongmi.android.tv.bean.Group;
-import com.fongmi.android.tv.bean.Live;
-import com.fongmi.android.tv.utils.UrlUtil;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.bean.Channel;
+import com.github.tvbox.gongjin.bean.Drm;
+import com.github.tvbox.gongjin.bean.Group;
+import com.github.tvbox.gongjin.bean.Live;
+import com.github.tvbox.gongjin.utils.UrlUtil;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Path;
 

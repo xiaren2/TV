@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -10,10 +10,10 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.fongmi.android.tv.bean.Episode;
-import com.fongmi.android.tv.databinding.DialogEpisodeGridBinding;
-import com.fongmi.android.tv.ui.fragment.EpisodeFragment;
-import com.fongmi.android.tv.utils.ResUtil;
+import com.github.tvbox.gongjin.bean.Episode;
+import com.github.tvbox.gongjin.databinding.DialogEpisodeGridBinding;
+import com.github.tvbox.gongjin.ui.fragment.EpisodeFragment;
+import com.github.tvbox.gongjin.utils.ResUtil;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.tabs.TabLayoutMediator;
 

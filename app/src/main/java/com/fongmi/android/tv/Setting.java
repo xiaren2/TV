@@ -1,10 +1,10 @@
-package com.fongmi.android.tv;
+package com.github.tvbox.gongjin;
 
 
 import android.content.Intent;
 import android.provider.Settings;
 
-import com.fongmi.android.tv.player.Players;
+import com.github.tvbox.gongjin.player.Players;
 import com.github.catvod.utils.Prefers;
 
 public class Setting {

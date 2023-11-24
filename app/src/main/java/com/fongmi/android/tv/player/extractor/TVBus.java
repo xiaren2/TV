@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.player.extractor;
+package com.github.tvbox.gongjin.player.extractor;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.Setting;
-import com.fongmi.android.tv.api.LiveConfig;
-import com.fongmi.android.tv.bean.Core;
-import com.fongmi.android.tv.player.Source;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.Setting;
+import com.github.tvbox.gongjin.api.LiveConfig;
+import com.github.tvbox.gongjin.bean.Core;
+import com.github.tvbox.gongjin.player.Source;
 import com.google.gson.JsonObject;
 import com.tvbus.engine.Listener;
 import com.tvbus.engine.TVCore;

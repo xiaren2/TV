@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.custom;
+package com.github.tvbox.gongjin.ui.custom;
 
 import android.view.ViewGroup;
 
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.fongmi.android.tv.ui.base.BaseFragment;
+import com.github.tvbox.gongjin.ui.base.BaseFragment;
 
 public abstract class FragmentStateManager {
 

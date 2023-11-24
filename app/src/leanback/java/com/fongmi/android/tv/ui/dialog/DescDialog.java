@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -6,8 +6,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.fongmi.android.tv.databinding.DialogDescBinding;
-import com.fongmi.android.tv.ui.custom.CustomMovement;
+import com.github.tvbox.gongjin.databinding.DialogDescBinding;
+import com.github.tvbox.gongjin.ui.custom.CustomMovement;
 import com.github.bassaer.library.MDColor;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 

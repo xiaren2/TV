@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.utils;
+package com.github.tvbox.gongjin.utils;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -16,7 +16,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
-import com.fongmi.android.tv.App;
+import com.github.tvbox.gongjin.App;
 import com.github.catvod.Init;
 
 import java.text.SimpleDateFormat;

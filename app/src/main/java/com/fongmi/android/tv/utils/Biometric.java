@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.utils;
+package com.github.tvbox.gongjin.utils;
 
 import androidx.annotation.NonNull;
 import androidx.biometric.BiometricManager;
@@ -6,8 +6,8 @@ import androidx.biometric.BiometricPrompt;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.R;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.R;
 
 public class Biometric {
 

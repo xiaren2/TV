@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.bean;
+package com.github.tvbox.gongjin.bean;
 
 import androidx.annotation.Nullable;
 

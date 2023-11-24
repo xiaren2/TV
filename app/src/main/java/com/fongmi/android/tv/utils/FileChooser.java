@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.utils;
+package com.github.tvbox.gongjin.utils;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -13,7 +13,7 @@ import android.provider.MediaStore;
 
 import androidx.fragment.app.Fragment;
 
-import com.fongmi.android.tv.App;
+import com.github.tvbox.gongjin.App;
 import com.github.catvod.utils.Path;
 
 import java.io.File;

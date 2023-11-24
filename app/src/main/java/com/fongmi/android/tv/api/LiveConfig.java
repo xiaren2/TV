@@ -1,20 +1,20 @@
-package com.fongmi.android.tv.api;
+package com.github.tvbox.gongjin.api;
 
 import android.text.TextUtils;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.Setting;
-import com.fongmi.android.tv.bean.Channel;
-import com.fongmi.android.tv.bean.Config;
-import com.fongmi.android.tv.bean.Depot;
-import com.fongmi.android.tv.bean.Group;
-import com.fongmi.android.tv.bean.Keep;
-import com.fongmi.android.tv.bean.Live;
-import com.fongmi.android.tv.db.AppDatabase;
-import com.fongmi.android.tv.impl.Callback;
-import com.fongmi.android.tv.ui.activity.LiveActivity;
-import com.fongmi.android.tv.utils.Notify;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.Setting;
+import com.github.tvbox.gongjin.bean.Channel;
+import com.github.tvbox.gongjin.bean.Config;
+import com.github.tvbox.gongjin.bean.Depot;
+import com.github.tvbox.gongjin.bean.Group;
+import com.github.tvbox.gongjin.bean.Keep;
+import com.github.tvbox.gongjin.bean.Live;
+import com.github.tvbox.gongjin.db.AppDatabase;
+import com.github.tvbox.gongjin.impl.Callback;
+import com.github.tvbox.gongjin.ui.activity.LiveActivity;
+import com.github.tvbox.gongjin.utils.Notify;
 import com.github.catvod.utils.Json;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

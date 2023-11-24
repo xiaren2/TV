@@ -1,6 +1,6 @@
-package com.fongmi.android.tv.impl;
+package com.github.tvbox.gongjin.impl;
 
-import com.fongmi.android.tv.bean.Site;
+import com.github.tvbox.gongjin.bean.Site;
 
 public interface SiteCallback {
 

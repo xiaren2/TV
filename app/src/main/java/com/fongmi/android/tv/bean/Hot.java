@@ -1,7 +1,7 @@
-package com.fongmi.android.tv.bean;
+package com.github.tvbox.gongjin.bean;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.Setting;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.Setting;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;

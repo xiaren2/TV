@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -7,10 +7,10 @@ import android.view.LayoutInflater;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.Setting;
-import com.fongmi.android.tv.databinding.DialogSubtitleBinding;
-import com.fongmi.android.tv.impl.SubtitleCallback;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.Setting;
+import com.github.tvbox.gongjin.databinding.DialogSubtitleBinding;
+import com.github.tvbox.gongjin.impl.SubtitleCallback;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class SubtitleDialog {

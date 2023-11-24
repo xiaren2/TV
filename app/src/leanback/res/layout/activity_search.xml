@@ -46,7 +46,7 @@
         android:layout_marginEnd="36dp"
         android:orientation="vertical">
 
-        <com.fongmi.android.tv.ui.custom.CustomMic
+        <com.github.tvbox.gongjin.ui.custom.CustomMic
             android:id="@+id/mic"
             android:layout_width="36dp"
             android:layout_height="36dp"
@@ -57,7 +57,7 @@
             android:scaleType="fitCenter"
             android:src="@drawable/ic_search_mic" />
 
-        <com.fongmi.android.tv.ui.custom.CustomEditText
+        <com.github.tvbox.gongjin.ui.custom.CustomEditText
             android:id="@+id/keyword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

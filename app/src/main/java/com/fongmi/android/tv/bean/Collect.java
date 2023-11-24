@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.bean;
+package com.github.tvbox.gongjin.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.utils.ResUtil;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.utils.ResUtil;
 
 import java.util.ArrayList;
 import java.util.List;

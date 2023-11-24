@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.utils;
+package com.github.tvbox.gongjin.utils;
 
 import android.net.Uri;
 
 import androidx.media3.common.util.UriUtil;
 
-import com.fongmi.android.tv.server.Server;
+import com.github.tvbox.gongjin.server.Server;
 import com.google.common.net.HttpHeaders;
 
 public class UrlUtil {

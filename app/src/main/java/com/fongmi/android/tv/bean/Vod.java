@@ -1,12 +1,12 @@
-package com.fongmi.android.tv.bean;
+package com.github.tvbox.gongjin.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.utils.Sniffer;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.utils.Sniffer;
 import com.github.catvod.utils.Trans;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;

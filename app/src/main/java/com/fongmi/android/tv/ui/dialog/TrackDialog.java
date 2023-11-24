@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,16 +15,16 @@ import androidx.media3.common.MimeTypes;
 import androidx.media3.common.Tracks;
 import androidx.viewbinding.ViewBinding;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.bean.Sub;
-import com.fongmi.android.tv.bean.Track;
-import com.fongmi.android.tv.databinding.DialogTrackBinding;
-import com.fongmi.android.tv.player.Players;
-import com.fongmi.android.tv.player.TrackNameProvider;
-import com.fongmi.android.tv.ui.adapter.TrackAdapter;
-import com.fongmi.android.tv.ui.custom.SpaceItemDecoration;
-import com.fongmi.android.tv.utils.FileChooser;
-import com.fongmi.android.tv.utils.ResUtil;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.bean.Sub;
+import com.github.tvbox.gongjin.bean.Track;
+import com.github.tvbox.gongjin.databinding.DialogTrackBinding;
+import com.github.tvbox.gongjin.player.Players;
+import com.github.tvbox.gongjin.player.TrackNameProvider;
+import com.github.tvbox.gongjin.ui.adapter.TrackAdapter;
+import com.github.tvbox.gongjin.ui.custom.SpaceItemDecoration;
+import com.github.tvbox.gongjin.utils.FileChooser;
+import com.github.tvbox.gongjin.utils.ResUtil;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import java.util.ArrayList;

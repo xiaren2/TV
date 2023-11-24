@@ -1,13 +1,13 @@
-package com.fongmi.android.tv.player;
+package com.github.tvbox.gongjin.player;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.Constant;
-import com.fongmi.android.tv.api.ApiConfig;
-import com.fongmi.android.tv.bean.Parse;
-import com.fongmi.android.tv.bean.Result;
-import com.fongmi.android.tv.impl.ParseCallback;
-import com.fongmi.android.tv.ui.custom.CustomWebView;
-import com.fongmi.android.tv.utils.UrlUtil;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.Constant;
+import com.github.tvbox.gongjin.api.ApiConfig;
+import com.github.tvbox.gongjin.bean.Parse;
+import com.github.tvbox.gongjin.bean.Result;
+import com.github.tvbox.gongjin.impl.ParseCallback;
+import com.github.tvbox.gongjin.ui.custom.CustomWebView;
+import com.github.tvbox.gongjin.utils.UrlUtil;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Json;
 import com.google.common.net.HttpHeaders;

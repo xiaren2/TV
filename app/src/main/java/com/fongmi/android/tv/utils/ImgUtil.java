@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.utils;
+package com.github.tvbox.gongjin.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -20,9 +20,9 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.signature.ObjectKey;
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.Setting;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.Setting;
 import com.github.catvod.utils.Json;
 import com.google.common.net.HttpHeaders;
 import com.google.gson.JsonParser;

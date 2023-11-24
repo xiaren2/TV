@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.utils;
+package com.github.tvbox.gongjin.utils;
 
 import android.net.TrafficStats;
 import android.view.View;
 import android.widget.TextView;
 
-import com.fongmi.android.tv.App;
+import com.github.tvbox.gongjin.App;
 
 public class Traffic {
 

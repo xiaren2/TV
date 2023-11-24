@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.adapter;
+package com.github.tvbox.gongjin.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -7,11 +7,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.fongmi.android.tv.api.ApiConfig;
-import com.fongmi.android.tv.bean.Parse;
-import com.fongmi.android.tv.databinding.AdapterParseDarkBinding;
-import com.fongmi.android.tv.databinding.AdapterParseLightBinding;
-import com.fongmi.android.tv.ui.base.ViewType;
+import com.github.tvbox.gongjin.api.ApiConfig;
+import com.github.tvbox.gongjin.bean.Parse;
+import com.github.tvbox.gongjin.databinding.AdapterParseDarkBinding;
+import com.github.tvbox.gongjin.databinding.AdapterParseLightBinding;
+import com.github.tvbox.gongjin.ui.base.ViewType;
 
 import java.util.List;
 

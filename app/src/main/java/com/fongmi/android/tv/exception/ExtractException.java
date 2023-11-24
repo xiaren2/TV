@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.exception;
+package com.github.tvbox.gongjin.exception;
 
 import androidx.annotation.Nullable;
 

@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.activity;
+package com.github.tvbox.gongjin.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.viewbinding.ViewBinding;
 
-import com.fongmi.android.tv.cast.ScanEvent;
-import com.fongmi.android.tv.databinding.ActivityScanBinding;
-import com.fongmi.android.tv.ui.base.BaseActivity;
-import com.fongmi.android.tv.utils.Util;
+import com.github.tvbox.gongjin.cast.ScanEvent;
+import com.github.tvbox.gongjin.databinding.ActivityScanBinding;
+import com.github.tvbox.gongjin.ui.base.BaseActivity;
+import com.github.tvbox.gongjin.utils.Util;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.ResultPoint;
 import com.journeyapps.barcodescanner.BarcodeCallback;

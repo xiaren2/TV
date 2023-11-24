@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.impl;
+package com.github.tvbox.gongjin.impl;
 
 import androidx.annotation.NonNull;
 

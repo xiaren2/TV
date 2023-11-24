@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.ui.custom;
+package com.github.tvbox.gongjin.ui.custom;
 
 import android.annotation.SuppressLint;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.databinding.ActivitySearchBinding;
-import com.fongmi.android.tv.ui.adapter.KeyboardAdapter;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.databinding.ActivitySearchBinding;
+import com.github.tvbox.gongjin.ui.adapter.KeyboardAdapter;
 
 public class CustomKeyboard implements KeyboardAdapter.OnClickListener {
 

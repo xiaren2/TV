@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.custom;
+package com.github.tvbox.gongjin.ui.custom;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -10,13 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatTextView;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.api.ApiConfig;
-import com.fongmi.android.tv.bean.Site;
-import com.fongmi.android.tv.impl.SiteCallback;
-import com.fongmi.android.tv.utils.KeyUtil;
-import com.fongmi.android.tv.utils.ResUtil;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.api.ApiConfig;
+import com.github.tvbox.gongjin.bean.Site;
+import com.github.tvbox.gongjin.impl.SiteCallback;
+import com.github.tvbox.gongjin.utils.KeyUtil;
+import com.github.tvbox.gongjin.utils.ResUtil;
 
 import java.util.List;
 

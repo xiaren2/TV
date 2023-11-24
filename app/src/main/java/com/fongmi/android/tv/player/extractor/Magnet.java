@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.player.extractor;
+package com.github.tvbox.gongjin.player.extractor;
 
 import android.os.SystemClock;
 
-import com.fongmi.android.tv.bean.Episode;
-import com.fongmi.android.tv.utils.Download;
-import com.fongmi.android.tv.utils.Sniffer;
+import com.github.tvbox.gongjin.bean.Episode;
+import com.github.tvbox.gongjin.utils.Download;
+import com.github.tvbox.gongjin.utils.Sniffer;
 import com.github.catvod.utils.Path;
 import com.github.catvod.utils.Util;
 import com.xunlei.downloadlib.XLTaskHelper;

@@ -1,12 +1,12 @@
-package com.fongmi.android.tv.bean;
+package com.github.tvbox.gongjin.bean;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
 
-import com.fongmi.android.tv.db.AppDatabase;
-import com.fongmi.android.tv.player.Players;
+import com.github.tvbox.gongjin.db.AppDatabase;
+import com.github.tvbox.gongjin.player.Players;
 
 import java.util.List;
 

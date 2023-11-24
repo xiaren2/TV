@@ -1,6 +1,6 @@
-package com.fongmi.android.tv.impl;
+package com.github.tvbox.gongjin.impl;
 
-import com.fongmi.android.tv.bean.Live;
+import com.github.tvbox.gongjin.bean.Live;
 
 public interface LiveCallback {
 

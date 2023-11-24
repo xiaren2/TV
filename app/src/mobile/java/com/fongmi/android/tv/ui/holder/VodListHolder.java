@@ -1,14 +1,14 @@
-package com.fongmi.android.tv.ui.holder;
+package com.github.tvbox.gongjin.ui.holder;
 
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 
-import com.fongmi.android.tv.bean.Vod;
-import com.fongmi.android.tv.databinding.AdapterVodListBinding;
-import com.fongmi.android.tv.ui.adapter.VodAdapter;
-import com.fongmi.android.tv.ui.base.BaseVodHolder;
-import com.fongmi.android.tv.utils.ImgUtil;
+import com.github.tvbox.gongjin.bean.Vod;
+import com.github.tvbox.gongjin.databinding.AdapterVodListBinding;
+import com.github.tvbox.gongjin.ui.adapter.VodAdapter;
+import com.github.tvbox.gongjin.ui.base.BaseVodHolder;
+import com.github.tvbox.gongjin.utils.ImgUtil;
 
 public class VodListHolder extends BaseVodHolder {
 

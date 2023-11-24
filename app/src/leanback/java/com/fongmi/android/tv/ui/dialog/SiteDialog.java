@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -10,15 +10,15 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.Setting;
-import com.fongmi.android.tv.api.ApiConfig;
-import com.fongmi.android.tv.bean.Site;
-import com.fongmi.android.tv.databinding.DialogSiteBinding;
-import com.fongmi.android.tv.impl.SiteCallback;
-import com.fongmi.android.tv.ui.adapter.SiteAdapter;
-import com.fongmi.android.tv.ui.custom.SpaceItemDecoration;
-import com.fongmi.android.tv.utils.ResUtil;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.Setting;
+import com.github.tvbox.gongjin.api.ApiConfig;
+import com.github.tvbox.gongjin.bean.Site;
+import com.github.tvbox.gongjin.databinding.DialogSiteBinding;
+import com.github.tvbox.gongjin.impl.SiteCallback;
+import com.github.tvbox.gongjin.ui.adapter.SiteAdapter;
+import com.github.tvbox.gongjin.ui.custom.SpaceItemDecoration;
+import com.github.tvbox.gongjin.utils.ResUtil;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class SiteDialog implements SiteAdapter.OnClickListener, CompoundButton.OnCheckedChangeListener {

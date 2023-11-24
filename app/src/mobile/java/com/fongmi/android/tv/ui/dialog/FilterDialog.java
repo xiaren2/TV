@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -8,10 +8,10 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewbinding.ViewBinding;
 
-import com.fongmi.android.tv.bean.Filter;
-import com.fongmi.android.tv.databinding.DialogFilterBinding;
-import com.fongmi.android.tv.impl.FilterCallback;
-import com.fongmi.android.tv.ui.adapter.FilterAdapter;
+import com.github.tvbox.gongjin.bean.Filter;
+import com.github.tvbox.gongjin.databinding.DialogFilterBinding;
+import com.github.tvbox.gongjin.impl.FilterCallback;
+import com.github.tvbox.gongjin.ui.adapter.FilterAdapter;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import java.util.List;

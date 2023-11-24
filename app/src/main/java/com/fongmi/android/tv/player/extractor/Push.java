@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.player.extractor;
+package com.github.tvbox.gongjin.player.extractor;
 
 import android.os.SystemClock;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.player.Source;
-import com.fongmi.android.tv.ui.activity.VideoActivity;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.player.Source;
+import com.github.tvbox.gongjin.ui.activity.VideoActivity;
 
 public class Push implements Source.Extractor {
 

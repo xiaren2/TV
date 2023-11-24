@@ -1,7 +1,7 @@
-package com.fongmi.android.tv.api;
+package com.github.tvbox.gongjin.api;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.bean.Site;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.bean.Site;
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.crawler.SpiderNull;
 

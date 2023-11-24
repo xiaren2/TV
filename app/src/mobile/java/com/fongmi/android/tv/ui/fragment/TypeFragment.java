@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.fragment;
+package com.github.tvbox.gongjin.ui.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,22 +12,22 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 
-import com.fongmi.android.tv.Product;
-import com.fongmi.android.tv.api.ApiConfig;
-import com.fongmi.android.tv.bean.Page;
-import com.fongmi.android.tv.bean.Result;
-import com.fongmi.android.tv.bean.Site;
-import com.fongmi.android.tv.bean.Style;
-import com.fongmi.android.tv.bean.Value;
-import com.fongmi.android.tv.bean.Vod;
-import com.fongmi.android.tv.databinding.FragmentTypeBinding;
-import com.fongmi.android.tv.model.SiteViewModel;
-import com.fongmi.android.tv.ui.activity.CollectActivity;
-import com.fongmi.android.tv.ui.activity.DetailActivity;
-import com.fongmi.android.tv.ui.activity.VideoActivity;
-import com.fongmi.android.tv.ui.adapter.VodAdapter;
-import com.fongmi.android.tv.ui.base.BaseFragment;
-import com.fongmi.android.tv.ui.custom.CustomScroller;
+import com.github.tvbox.gongjin.Product;
+import com.github.tvbox.gongjin.api.ApiConfig;
+import com.github.tvbox.gongjin.bean.Page;
+import com.github.tvbox.gongjin.bean.Result;
+import com.github.tvbox.gongjin.bean.Site;
+import com.github.tvbox.gongjin.bean.Style;
+import com.github.tvbox.gongjin.bean.Value;
+import com.github.tvbox.gongjin.bean.Vod;
+import com.github.tvbox.gongjin.databinding.FragmentTypeBinding;
+import com.github.tvbox.gongjin.model.SiteViewModel;
+import com.github.tvbox.gongjin.ui.activity.CollectActivity;
+import com.github.tvbox.gongjin.ui.activity.DetailActivity;
+import com.github.tvbox.gongjin.ui.activity.VideoActivity;
+import com.github.tvbox.gongjin.ui.adapter.VodAdapter;
+import com.github.tvbox.gongjin.ui.base.BaseFragment;
+import com.github.tvbox.gongjin.ui.custom.CustomScroller;
 
 import java.io.Serializable;
 import java.util.ArrayList;

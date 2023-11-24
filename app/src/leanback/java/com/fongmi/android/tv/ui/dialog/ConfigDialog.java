@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.dialog;
+package com.github.tvbox.gongjin.ui.dialog;
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -11,19 +11,19 @@ import android.view.inputmethod.EditorInfo;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.FragmentActivity;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.api.ApiConfig;
-import com.fongmi.android.tv.api.LiveConfig;
-import com.fongmi.android.tv.api.WallConfig;
-import com.fongmi.android.tv.bean.Config;
-import com.fongmi.android.tv.databinding.DialogConfigBinding;
-import com.fongmi.android.tv.event.ServerEvent;
-import com.fongmi.android.tv.impl.ConfigCallback;
-import com.fongmi.android.tv.server.Server;
-import com.fongmi.android.tv.ui.custom.CustomTextListener;
-import com.fongmi.android.tv.utils.QRCode;
-import com.fongmi.android.tv.utils.ResUtil;
-import com.fongmi.android.tv.utils.UrlUtil;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.api.ApiConfig;
+import com.github.tvbox.gongjin.api.LiveConfig;
+import com.github.tvbox.gongjin.api.WallConfig;
+import com.github.tvbox.gongjin.bean.Config;
+import com.github.tvbox.gongjin.databinding.DialogConfigBinding;
+import com.github.tvbox.gongjin.event.ServerEvent;
+import com.github.tvbox.gongjin.impl.ConfigCallback;
+import com.github.tvbox.gongjin.server.Server;
+import com.github.tvbox.gongjin.ui.custom.CustomTextListener;
+import com.github.tvbox.gongjin.utils.QRCode;
+import com.github.tvbox.gongjin.utils.ResUtil;
+import com.github.tvbox.gongjin.utils.UrlUtil;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.permissionx.guolindev.PermissionX;
 

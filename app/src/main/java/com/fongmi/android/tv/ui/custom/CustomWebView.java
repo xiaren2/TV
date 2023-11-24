@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.custom;
+package com.github.tvbox.gongjin.ui.custom;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,12 +14,12 @@ import android.webkit.WebViewClient;
 
 import androidx.annotation.NonNull;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.Constant;
-import com.fongmi.android.tv.api.ApiConfig;
-import com.fongmi.android.tv.bean.Site;
-import com.fongmi.android.tv.impl.ParseCallback;
-import com.fongmi.android.tv.utils.Sniffer;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.Constant;
+import com.github.tvbox.gongjin.api.ApiConfig;
+import com.github.tvbox.gongjin.bean.Site;
+import com.github.tvbox.gongjin.impl.ParseCallback;
+import com.github.tvbox.gongjin.utils.Sniffer;
 import com.github.catvod.crawler.Spider;
 import com.google.common.net.HttpHeaders;
 

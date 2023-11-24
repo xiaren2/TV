@@ -1,10 +1,10 @@
-package com.fongmi.android.tv.db.dao;
+package com.github.tvbox.gongjin.db.dao;
 
 import androidx.room.Dao;
 import androidx.room.Query;
 import androidx.room.RoomWarnings;
 
-import com.fongmi.android.tv.bean.Config;
+import com.github.tvbox.gongjin.bean.Config;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.fongmi.android.tv.player.extractor;
+package com.github.tvbox.gongjin.player.extractor;
 
-import com.fongmi.android.tv.player.Source;
+import com.github.tvbox.gongjin.player.Source;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Path;
 

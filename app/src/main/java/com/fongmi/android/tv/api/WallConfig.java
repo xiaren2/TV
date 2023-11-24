@@ -1,17 +1,17 @@
-package com.fongmi.android.tv.api;
+package com.github.tvbox.gongjin.api;
 
 import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.Setting;
-import com.fongmi.android.tv.bean.Config;
-import com.fongmi.android.tv.event.RefreshEvent;
-import com.fongmi.android.tv.impl.Callback;
-import com.fongmi.android.tv.utils.FileUtil;
-import com.fongmi.android.tv.utils.ImgUtil;
-import com.fongmi.android.tv.utils.Notify;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.Setting;
+import com.github.tvbox.gongjin.bean.Config;
+import com.github.tvbox.gongjin.event.RefreshEvent;
+import com.github.tvbox.gongjin.impl.Callback;
+import com.github.tvbox.gongjin.utils.FileUtil;
+import com.github.tvbox.gongjin.utils.ImgUtil;
+import com.github.tvbox.gongjin.utils.Notify;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Path;
 

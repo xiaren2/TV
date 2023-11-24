@@ -1,9 +1,9 @@
-package com.fongmi.android.tv.impl;
+package com.github.tvbox.gongjin.impl;
 
 import android.support.v4.media.session.MediaSessionCompat;
 
-import com.fongmi.android.tv.event.ActionEvent;
-import com.fongmi.android.tv.player.Players;
+import com.github.tvbox.gongjin.event.ActionEvent;
+import com.github.tvbox.gongjin.player.Players;
 
 public class SessionCallback extends MediaSessionCompat.Callback {
 

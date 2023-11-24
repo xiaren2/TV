@@ -1,11 +1,11 @@
-package com.fongmi.android.tv.receiver;
+package com.github.tvbox.gongjin.receiver;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.fongmi.android.tv.event.ActionEvent;
+import com.github.tvbox.gongjin.event.ActionEvent;
 
 public class ActionReceiver extends BroadcastReceiver {
 

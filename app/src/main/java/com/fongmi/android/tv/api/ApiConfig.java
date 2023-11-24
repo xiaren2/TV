@@ -1,17 +1,17 @@
-package com.fongmi.android.tv.api;
+package com.github.tvbox.gongjin.api;
 
 import android.text.TextUtils;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.bean.Config;
-import com.fongmi.android.tv.bean.Depot;
-import com.fongmi.android.tv.bean.Parse;
-import com.fongmi.android.tv.bean.Rule;
-import com.fongmi.android.tv.bean.Site;
-import com.fongmi.android.tv.impl.Callback;
-import com.fongmi.android.tv.utils.Notify;
-import com.fongmi.android.tv.utils.UrlUtil;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.bean.Config;
+import com.github.tvbox.gongjin.bean.Depot;
+import com.github.tvbox.gongjin.bean.Parse;
+import com.github.tvbox.gongjin.bean.Rule;
+import com.github.tvbox.gongjin.bean.Site;
+import com.github.tvbox.gongjin.impl.Callback;
+import com.github.tvbox.gongjin.utils.Notify;
+import com.github.tvbox.gongjin.utils.UrlUtil;
 import com.github.catvod.bean.Doh;
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.crawler.SpiderNull;

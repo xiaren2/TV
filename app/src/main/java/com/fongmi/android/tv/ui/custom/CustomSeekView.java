@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.custom;
+package com.github.tvbox.gongjin.ui.custom;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,8 +12,8 @@ import androidx.media3.common.util.Util;
 import androidx.media3.ui.DefaultTimeBar;
 import androidx.media3.ui.TimeBar;
 
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.player.Players;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.player.Players;
 
 public class CustomSeekView extends FrameLayout implements TimeBar.OnScrubListener {
 

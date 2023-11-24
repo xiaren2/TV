@@ -1,12 +1,12 @@
-package com.fongmi.android.tv.player;
+package com.github.tvbox.gongjin.player;
 
 import android.net.Uri;
 
-import com.fongmi.android.tv.bean.Channel;
-import com.fongmi.android.tv.bean.Result;
-import com.fongmi.android.tv.server.Server;
-import com.fongmi.android.tv.utils.Sniffer;
-import com.fongmi.android.tv.utils.UrlUtil;
+import com.github.tvbox.gongjin.bean.Channel;
+import com.github.tvbox.gongjin.bean.Result;
+import com.github.tvbox.gongjin.server.Server;
+import com.github.tvbox.gongjin.utils.Sniffer;
+import com.github.tvbox.gongjin.utils.UrlUtil;
 
 import java.net.URLEncoder;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.custom;
+package com.github.tvbox.gongjin.ui.custom;
 
 import androidx.collection.ArrayMap;
 import androidx.leanback.widget.ListRow;

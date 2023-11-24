@@ -1,4 +1,4 @@
-package com.fongmi.android.tv.ui.activity;
+package com.github.tvbox.gongjin.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,24 +11,24 @@ import android.view.inputmethod.EditorInfo;
 import androidx.annotation.NonNull;
 import androidx.viewbinding.ViewBinding;
 
-import com.fongmi.android.tv.App;
-import com.fongmi.android.tv.R;
-import com.fongmi.android.tv.Setting;
-import com.fongmi.android.tv.bean.Hot;
-import com.fongmi.android.tv.bean.Site;
-import com.fongmi.android.tv.bean.Suggest;
-import com.fongmi.android.tv.databinding.ActivitySearchBinding;
-import com.fongmi.android.tv.impl.Callback;
-import com.fongmi.android.tv.impl.SiteCallback;
-import com.fongmi.android.tv.ui.adapter.RecordAdapter;
-import com.fongmi.android.tv.ui.adapter.WordAdapter;
-import com.fongmi.android.tv.ui.base.BaseActivity;
-import com.fongmi.android.tv.ui.custom.CustomKeyboard;
-import com.fongmi.android.tv.ui.custom.CustomTextListener;
-import com.fongmi.android.tv.ui.custom.SpaceItemDecoration;
-import com.fongmi.android.tv.ui.dialog.SiteDialog;
-import com.fongmi.android.tv.utils.KeyUtil;
-import com.fongmi.android.tv.utils.Util;
+import com.github.tvbox.gongjin.App;
+import com.github.tvbox.gongjin.R;
+import com.github.tvbox.gongjin.Setting;
+import com.github.tvbox.gongjin.bean.Hot;
+import com.github.tvbox.gongjin.bean.Site;
+import com.github.tvbox.gongjin.bean.Suggest;
+import com.github.tvbox.gongjin.databinding.ActivitySearchBinding;
+import com.github.tvbox.gongjin.impl.Callback;
+import com.github.tvbox.gongjin.impl.SiteCallback;
+import com.github.tvbox.gongjin.ui.adapter.RecordAdapter;
+import com.github.tvbox.gongjin.ui.adapter.WordAdapter;
+import com.github.tvbox.gongjin.ui.base.BaseActivity;
+import com.github.tvbox.gongjin.ui.custom.CustomKeyboard;
+import com.github.tvbox.gongjin.ui.custom.CustomTextListener;
+import com.github.tvbox.gongjin.ui.custom.SpaceItemDecoration;
+import com.github.tvbox.gongjin.ui.dialog.SiteDialog;
+import com.github.tvbox.gongjin.utils.KeyUtil;
+import com.github.tvbox.gongjin.utils.Util;
 import com.github.catvod.net.OkHttp;
 import com.google.common.net.HttpHeaders;
 
