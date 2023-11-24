@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.db;
+package com.fongmi.android.tv.db;
 
 import android.content.Context;
 
@@ -9,23 +9,23 @@ import androidx.room.RoomDatabase;
 import androidx.room.migration.Migration;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.Setting;
-import com.github.tvbox.gongjin.bean.Config;
-import com.github.tvbox.gongjin.bean.Device;
-import com.github.tvbox.gongjin.bean.History;
-import com.github.tvbox.gongjin.bean.Keep;
-import com.github.tvbox.gongjin.bean.Site;
-import com.github.tvbox.gongjin.bean.Track;
-import com.github.tvbox.gongjin.db.dao.ConfigDao;
-import com.github.tvbox.gongjin.db.dao.DeviceDao;
-import com.github.tvbox.gongjin.db.dao.HistoryDao;
-import com.github.tvbox.gongjin.db.dao.KeepDao;
-import com.github.tvbox.gongjin.db.dao.SiteDao;
-import com.github.tvbox.gongjin.db.dao.TrackDao;
-import com.github.tvbox.gongjin.utils.ResUtil;
-import com.github.tvbox.gongjin.utils.Util;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.Setting;
+import com.fongmi.android.tv.bean.Config;
+import com.fongmi.android.tv.bean.Device;
+import com.fongmi.android.tv.bean.History;
+import com.fongmi.android.tv.bean.Keep;
+import com.fongmi.android.tv.bean.Site;
+import com.fongmi.android.tv.bean.Track;
+import com.fongmi.android.tv.db.dao.ConfigDao;
+import com.fongmi.android.tv.db.dao.DeviceDao;
+import com.fongmi.android.tv.db.dao.HistoryDao;
+import com.fongmi.android.tv.db.dao.KeepDao;
+import com.fongmi.android.tv.db.dao.SiteDao;
+import com.fongmi.android.tv.db.dao.TrackDao;
+import com.fongmi.android.tv.utils.ResUtil;
+import com.fongmi.android.tv.utils.Util;
 import com.github.catvod.utils.Path;
 import com.github.catvod.utils.Prefers;
 
@@ -57,10 +57,10 @@ public abstract class AppDatabase extends RoomDatabase {
     }
 
     public static void backup() {
-        if (Setting.isBackupAuto()) backup(new com.github.tvbox.gongjin.impl.Callback());
+        if (Setting.isBackupAuto()) backup(new com.fongmi.android.tv.impl.Callback());
     }
 
-    public static void backup(com.github.tvbox.gongjin.impl.Callback callback) {
+    public static void backup(com.fongmi.android.tv.impl.Callback callback) {
         App.execute(() -> {
             File db = App.get().getDatabasePath(NAME).getAbsoluteFile();
             File wal = App.get().getDatabasePath(NAME + "-wal").getAbsoluteFile();
@@ -74,7 +74,7 @@ public abstract class AppDatabase extends RoomDatabase {
         });
     }
 
-    public static void restore(com.github.tvbox.gongjin.impl.Callback callback) {
+    public static void restore(com.fongmi.android.tv.impl.Callback callback) {
         App.execute(() -> {
             File db = new File(Path.tv(), NAME);
             File wal = new File(Path.tv(), NAME + "-wal");

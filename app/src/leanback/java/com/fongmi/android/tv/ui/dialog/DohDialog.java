@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -6,11 +6,11 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.github.tvbox.gongjin.databinding.DialogDohBinding;
-import com.github.tvbox.gongjin.impl.DohCallback;
-import com.github.tvbox.gongjin.ui.adapter.DohAdapter;
-import com.github.tvbox.gongjin.ui.custom.SpaceItemDecoration;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.databinding.DialogDohBinding;
+import com.fongmi.android.tv.impl.DohCallback;
+import com.fongmi.android.tv.ui.adapter.DohAdapter;
+import com.fongmi.android.tv.ui.custom.SpaceItemDecoration;
+import com.fongmi.android.tv.utils.ResUtil;
 import com.github.catvod.bean.Doh;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 

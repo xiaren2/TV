@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,10 +6,10 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.gson.FilterAdapter;
-import com.github.tvbox.gongjin.gson.MsgAdapter;
-import com.github.tvbox.gongjin.gson.UrlAdapter;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.gson.FilterAdapter;
+import com.fongmi.android.tv.gson.MsgAdapter;
+import com.fongmi.android.tv.gson.UrlAdapter;
 import com.github.catvod.utils.Json;
 import com.github.catvod.utils.Trans;
 import com.google.gson.JsonElement;

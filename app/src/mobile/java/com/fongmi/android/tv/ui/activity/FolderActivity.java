@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.activity;
+package com.fongmi.android.tv.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,12 +6,12 @@ import android.os.Bundle;
 
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.bean.Class;
-import com.github.tvbox.gongjin.bean.Result;
-import com.github.tvbox.gongjin.databinding.ActivityFolderBinding;
-import com.github.tvbox.gongjin.ui.base.BaseActivity;
-import com.github.tvbox.gongjin.ui.fragment.TypeFragment;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.bean.Class;
+import com.fongmi.android.tv.bean.Result;
+import com.fongmi.android.tv.databinding.ActivityFolderBinding;
+import com.fongmi.android.tv.ui.base.BaseActivity;
+import com.fongmi.android.tv.ui.fragment.TypeFragment;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin;
+package com.fongmi.android.tv;
 
 import android.app.Activity;
 import android.app.Application;
@@ -12,9 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.os.HandlerCompat;
 
-import com.github.tvbox.gongjin.api.LiveConfig;
-import com.github.tvbox.gongjin.ui.activity.CrashActivity;
-import com.github.tvbox.gongjin.utils.Notify;
+import com.fongmi.android.tv.api.LiveConfig;
+import com.fongmi.android.tv.ui.activity.CrashActivity;
+import com.fongmi.android.tv.utils.Notify;
 import com.github.catvod.Init;
 import com.github.catvod.bean.Doh;
 import com.github.catvod.net.OkHttp;

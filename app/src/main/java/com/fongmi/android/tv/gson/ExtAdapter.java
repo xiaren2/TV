@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.gson;
+package com.fongmi.android.tv.gson;
 
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.view.LayoutInflater;
 import android.view.WindowManager;
@@ -6,11 +6,11 @@ import android.view.WindowManager;
 import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.github.tvbox.gongjin.bean.Episode;
-import com.github.tvbox.gongjin.databinding.DialogEpisodeListBinding;
-import com.github.tvbox.gongjin.model.SiteViewModel;
-import com.github.tvbox.gongjin.ui.adapter.EpisodeAdapter;
-import com.github.tvbox.gongjin.ui.base.ViewType;
+import com.fongmi.android.tv.bean.Episode;
+import com.fongmi.android.tv.databinding.DialogEpisodeListBinding;
+import com.fongmi.android.tv.model.SiteViewModel;
+import com.fongmi.android.tv.ui.adapter.EpisodeAdapter;
+import com.fongmi.android.tv.ui.base.ViewType;
 import com.google.android.material.sidesheet.SideSheetDialog;
 
 import java.util.List;

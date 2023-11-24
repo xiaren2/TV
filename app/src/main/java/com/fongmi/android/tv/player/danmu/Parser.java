@@ -1,9 +1,9 @@
-package com.github.tvbox.gongjin.player.danmu;
+package com.fongmi.android.tv.player.danmu;
 
 import android.graphics.Color;
 import android.text.TextUtils;
 
-import com.github.tvbox.gongjin.bean.Danmu;
+import com.fongmi.android.tv.bean.Danmu;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,13 +1,13 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.db.AppDatabase;
-import com.github.tvbox.gongjin.event.RefreshEvent;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.db.AppDatabase;
+import com.fongmi.android.tv.event.RefreshEvent;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.adapter;
+package com.fongmi.android.tv.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.gongjin.databinding.AdapterSearchWordBinding;
+import com.fongmi.android.tv.databinding.AdapterSearchWordBinding;
 
 import java.util.ArrayList;
 import java.util.List;

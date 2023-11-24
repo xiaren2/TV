@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.base;
+package com.fongmi.android.tv.ui.base;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -13,12 +13,12 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.Setting;
-import com.github.tvbox.gongjin.api.WallConfig;
-import com.github.tvbox.gongjin.event.RefreshEvent;
-import com.github.tvbox.gongjin.utils.FileUtil;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.Setting;
+import com.fongmi.android.tv.api.WallConfig;
+import com.fongmi.android.tv.event.RefreshEvent;
+import com.fongmi.android.tv.utils.FileUtil;
+import com.fongmi.android.tv.utils.ResUtil;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

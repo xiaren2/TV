@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.utils;
+package com.fongmi.android.tv.utils;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -9,8 +9,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.NotificationChannelCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.databinding.ViewProgressBinding;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.databinding.ViewProgressBinding;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class Notify {

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.utils;
+package com.fongmi.android.tv.utils;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,8 +7,8 @@ import android.text.TextUtils;
 
 import androidx.core.content.FileProvider;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.impl.Callback;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.impl.Callback;
 import com.github.catvod.utils.Path;
 
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.text.TextUtils;
 
@@ -7,12 +7,12 @@ import androidx.room.Entity;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.Product;
-import com.github.tvbox.gongjin.db.AppDatabase;
-import com.github.tvbox.gongjin.server.Server;
-import com.github.tvbox.gongjin.utils.UrlUtil;
-import com.github.tvbox.gongjin.utils.Util;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.Product;
+import com.fongmi.android.tv.db.AppDatabase;
+import com.fongmi.android.tv.server.Server;
+import com.fongmi.android.tv.utils.UrlUtil;
+import com.fongmi.android.tv.utils.Util;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;

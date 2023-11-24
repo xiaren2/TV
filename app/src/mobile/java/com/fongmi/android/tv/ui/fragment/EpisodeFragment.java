@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.fragment;
+package com.fongmi.android.tv.ui.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,12 +10,12 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.bean.Episode;
-import com.github.tvbox.gongjin.databinding.FragmentEpisodeBinding;
-import com.github.tvbox.gongjin.model.SiteViewModel;
-import com.github.tvbox.gongjin.ui.adapter.EpisodeAdapter;
-import com.github.tvbox.gongjin.ui.base.BaseFragment;
-import com.github.tvbox.gongjin.ui.base.ViewType;
+import com.fongmi.android.tv.bean.Episode;
+import com.fongmi.android.tv.databinding.FragmentEpisodeBinding;
+import com.fongmi.android.tv.model.SiteViewModel;
+import com.fongmi.android.tv.ui.adapter.EpisodeAdapter;
+import com.fongmi.android.tv.ui.base.BaseFragment;
+import com.fongmi.android.tv.ui.base.ViewType;
 
 import java.util.ArrayList;
 import java.util.List;

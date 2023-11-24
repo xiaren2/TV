@@ -1,9 +1,9 @@
-package com.github.tvbox.gongjin.db.dao;
+package com.fongmi.android.tv.db.dao;
 
 import androidx.room.Dao;
 import androidx.room.Query;
 
-import com.github.tvbox.gongjin.bean.Site;
+import com.fongmi.android.tv.bean.Site;
 
 @Dao
 public abstract class SiteDao extends BaseDao<Site> {

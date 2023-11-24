@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.activity;
+package com.fongmi.android.tv.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,25 +12,25 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.bean.Episode;
-import com.github.tvbox.gongjin.bean.Flag;
-import com.github.tvbox.gongjin.bean.History;
-import com.github.tvbox.gongjin.bean.Result;
-import com.github.tvbox.gongjin.bean.Site;
-import com.github.tvbox.gongjin.bean.Vod;
-import com.github.tvbox.gongjin.databinding.ActivityDetailBinding;
-import com.github.tvbox.gongjin.db.AppDatabase;
-import com.github.tvbox.gongjin.event.ErrorEvent;
-import com.github.tvbox.gongjin.model.SiteViewModel;
-import com.github.tvbox.gongjin.ui.adapter.EpisodeAdapter;
-import com.github.tvbox.gongjin.ui.adapter.FlagAdapter;
-import com.github.tvbox.gongjin.ui.base.BaseActivity;
-import com.github.tvbox.gongjin.ui.base.ViewType;
-import com.github.tvbox.gongjin.ui.custom.SpaceItemDecoration;
-import com.github.tvbox.gongjin.utils.ImgUtil;
-import com.github.tvbox.gongjin.utils.Notify;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.bean.Episode;
+import com.fongmi.android.tv.bean.Flag;
+import com.fongmi.android.tv.bean.History;
+import com.fongmi.android.tv.bean.Result;
+import com.fongmi.android.tv.bean.Site;
+import com.fongmi.android.tv.bean.Vod;
+import com.fongmi.android.tv.databinding.ActivityDetailBinding;
+import com.fongmi.android.tv.db.AppDatabase;
+import com.fongmi.android.tv.event.ErrorEvent;
+import com.fongmi.android.tv.model.SiteViewModel;
+import com.fongmi.android.tv.ui.adapter.EpisodeAdapter;
+import com.fongmi.android.tv.ui.adapter.FlagAdapter;
+import com.fongmi.android.tv.ui.base.BaseActivity;
+import com.fongmi.android.tv.ui.base.ViewType;
+import com.fongmi.android.tv.ui.custom.SpaceItemDecoration;
+import com.fongmi.android.tv.utils.ImgUtil;
+import com.fongmi.android.tv.utils.Notify;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package com.github.tvbox.gongjin.receiver;
+package com.fongmi.android.tv.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
 import com.android.cast.dlna.dmr.DLNARendererService;
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.R;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.R;
 
 public class BootReceiver extends BroadcastReceiver {
 

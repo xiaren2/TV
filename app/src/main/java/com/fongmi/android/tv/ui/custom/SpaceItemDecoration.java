@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.custom;
+package com.fongmi.android.tv.ui.custom;
 
 import android.graphics.Rect;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.utils.ResUtil;
 
 public class SpaceItemDecoration extends RecyclerView.ItemDecoration {
 

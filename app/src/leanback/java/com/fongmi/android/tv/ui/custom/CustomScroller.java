@@ -1,11 +1,11 @@
-package com.github.tvbox.gongjin.ui.custom;
+package com.fongmi.android.tv.ui.custom;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.gongjin.bean.Result;
+import com.fongmi.android.tv.bean.Result;
 
 public class CustomScroller extends RecyclerView.OnScrollListener {
 

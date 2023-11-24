@@ -1,10 +1,10 @@
-package com.github.tvbox.gongjin.server;
+package com.fongmi.android.tv.server;
 
 import android.content.Context;
 import android.net.wifi.WifiManager;
 import android.text.format.Formatter;
 
-import com.github.tvbox.gongjin.App;
+import com.fongmi.android.tv.App;
 import com.fongmi.quickjs.utils.Proxy;
 
 import java.net.Inet4Address;

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.utils;
+package com.fongmi.android.tv.utils;
 
 import android.content.Context;
 

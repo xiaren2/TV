@@ -1,6 +1,6 @@
-package com.github.tvbox.gongjin.cast;
+package com.fongmi.android.tv.cast;
 
-import com.github.tvbox.gongjin.server.Server;
+import com.fongmi.android.tv.server.Server;
 import com.github.catvod.utils.Path;
 
 public class CastVideo {

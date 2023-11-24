@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.activity;
+package com.fongmi.android.tv.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,14 +7,14 @@ import android.view.View;
 
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.databinding.ActivityPushBinding;
-import com.github.tvbox.gongjin.server.Server;
-import com.github.tvbox.gongjin.ui.base.BaseActivity;
-import com.github.tvbox.gongjin.utils.QRCode;
-import com.github.tvbox.gongjin.utils.ResUtil;
-import com.github.tvbox.gongjin.utils.Sniffer;
-import com.github.tvbox.gongjin.utils.Util;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.databinding.ActivityPushBinding;
+import com.fongmi.android.tv.server.Server;
+import com.fongmi.android.tv.ui.base.BaseActivity;
+import com.fongmi.android.tv.utils.QRCode;
+import com.fongmi.android.tv.utils.ResUtil;
+import com.fongmi.android.tv.utils.Sniffer;
+import com.fongmi.android.tv.utils.Util;
 
 public class PushActivity extends BaseActivity {
 

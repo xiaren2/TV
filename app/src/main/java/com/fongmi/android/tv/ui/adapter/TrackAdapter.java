@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.adapter;
+package com.fongmi.android.tv.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.gongjin.bean.Track;
-import com.github.tvbox.gongjin.databinding.AdapterTrackBinding;
+import com.fongmi.android.tv.bean.Track;
+import com.fongmi.android.tv.databinding.AdapterTrackBinding;
 
 import java.util.ArrayList;
 import java.util.List;

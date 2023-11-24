@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.custom;
+package com.fongmi.android.tv.ui.custom;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import com.github.tvbox.gongjin.databinding.ViewEmptyBinding;
-import com.github.tvbox.gongjin.databinding.ViewProgressBinding;
+import com.fongmi.android.tv.databinding.ViewEmptyBinding;
+import com.fongmi.android.tv.databinding.ViewProgressBinding;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,14 +1,14 @@
-package com.github.tvbox.gongjin.model;
+package com.fongmi.android.tv.model;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.github.tvbox.gongjin.Constant;
-import com.github.tvbox.gongjin.api.LiveParser;
-import com.github.tvbox.gongjin.bean.Channel;
-import com.github.tvbox.gongjin.bean.Group;
-import com.github.tvbox.gongjin.bean.Live;
-import com.github.tvbox.gongjin.player.Source;
+import com.fongmi.android.tv.Constant;
+import com.fongmi.android.tv.api.LiveParser;
+import com.fongmi.android.tv.bean.Channel;
+import com.fongmi.android.tv.bean.Group;
+import com.fongmi.android.tv.bean.Live;
+import com.fongmi.android.tv.player.Source;
 
 import java.util.Iterator;
 import java.util.concurrent.Callable;

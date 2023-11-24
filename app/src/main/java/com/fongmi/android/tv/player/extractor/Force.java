@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.player.extractor;
+package com.fongmi.android.tv.player.extractor;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.net.Uri;
 import android.os.IBinder;
 import android.os.SystemClock;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.player.Source;
-import com.github.tvbox.gongjin.utils.UrlUtil;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.player.Source;
+import com.fongmi.android.tv.utils.UrlUtil;
 import com.forcetech.Util;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Github;

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.utils;
+package com.fongmi.android.tv.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -25,7 +25,7 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 
-import com.github.tvbox.gongjin.App;
+import com.fongmi.android.tv.App;
 
 public class ResUtil {
 

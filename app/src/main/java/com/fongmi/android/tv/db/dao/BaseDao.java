@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.db.dao;
+package com.fongmi.android.tv.db.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;

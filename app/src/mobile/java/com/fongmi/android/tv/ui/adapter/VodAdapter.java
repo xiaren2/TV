@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.adapter;
+package com.fongmi.android.tv.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -6,16 +6,16 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.gongjin.bean.Style;
-import com.github.tvbox.gongjin.bean.Vod;
-import com.github.tvbox.gongjin.databinding.AdapterVodListBinding;
-import com.github.tvbox.gongjin.databinding.AdapterVodOvalBinding;
-import com.github.tvbox.gongjin.databinding.AdapterVodRectBinding;
-import com.github.tvbox.gongjin.ui.base.BaseVodHolder;
-import com.github.tvbox.gongjin.ui.base.ViewType;
-import com.github.tvbox.gongjin.ui.holder.VodListHolder;
-import com.github.tvbox.gongjin.ui.holder.VodOvalHolder;
-import com.github.tvbox.gongjin.ui.holder.VodRectHolder;
+import com.fongmi.android.tv.bean.Style;
+import com.fongmi.android.tv.bean.Vod;
+import com.fongmi.android.tv.databinding.AdapterVodListBinding;
+import com.fongmi.android.tv.databinding.AdapterVodOvalBinding;
+import com.fongmi.android.tv.databinding.AdapterVodRectBinding;
+import com.fongmi.android.tv.ui.base.BaseVodHolder;
+import com.fongmi.android.tv.ui.base.ViewType;
+import com.fongmi.android.tv.ui.holder.VodListHolder;
+import com.fongmi.android.tv.ui.holder.VodOvalHolder;
+import com.fongmi.android.tv.ui.holder.VodRectHolder;
 
 import java.util.ArrayList;
 import java.util.List;

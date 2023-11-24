@@ -1,7 +1,7 @@
-package com.github.tvbox.gongjin.event;
+package com.fongmi.android.tv.event;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.utils.ResUtil;
 
 import org.greenrobot.eventbus.EventBus;
 

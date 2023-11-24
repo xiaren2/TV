@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.impl;
+package com.fongmi.android.tv.impl;
 
 import com.github.catvod.bean.Doh;
 

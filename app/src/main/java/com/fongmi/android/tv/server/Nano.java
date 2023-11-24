@@ -1,14 +1,14 @@
-package com.github.tvbox.gongjin.server;
+package com.fongmi.android.tv.server;
 
 import android.util.Base64;
 
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.api.LiveConfig;
-import com.github.tvbox.gongjin.bean.Device;
-import com.github.tvbox.gongjin.server.process.Action;
-import com.github.tvbox.gongjin.server.process.Local;
-import com.github.tvbox.gongjin.server.process.Process;
-import com.github.tvbox.gongjin.utils.M3U8;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.api.LiveConfig;
+import com.fongmi.android.tv.bean.Device;
+import com.fongmi.android.tv.server.process.Action;
+import com.fongmi.android.tv.server.process.Local;
+import com.fongmi.android.tv.server.process.Process;
+import com.fongmi.android.tv.utils.M3U8;
 import com.github.catvod.Init;
 import com.google.common.net.HttpHeaders;
 

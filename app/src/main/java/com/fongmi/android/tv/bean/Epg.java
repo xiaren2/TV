@@ -1,11 +1,11 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.text.TextUtils;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.utils.ResUtil;
-import com.github.tvbox.gongjin.utils.Util;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.utils.ResUtil;
+import com.fongmi.android.tv.utils.Util;
 import com.github.catvod.utils.Trans;
 import com.google.gson.annotations.SerializedName;
 

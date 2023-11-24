@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.custom;
+package com.fongmi.android.tv.ui.custom;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.gongjin.Setting;
-import com.github.tvbox.gongjin.utils.ResUtil;
-import com.github.tvbox.gongjin.utils.Util;
+import com.fongmi.android.tv.Setting;
+import com.fongmi.android.tv.utils.ResUtil;
+import com.fongmi.android.tv.utils.Util;
 
 public class CustomKeyDownLive extends GestureDetector.SimpleOnGestureListener {
 

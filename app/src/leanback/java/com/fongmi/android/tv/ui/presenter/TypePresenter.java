@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.presenter;
+package com.fongmi.android.tv.ui.presenter;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -6,10 +6,10 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.leanback.widget.Presenter;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.bean.Class;
-import com.github.tvbox.gongjin.databinding.AdapterTypeBinding;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.bean.Class;
+import com.fongmi.android.tv.databinding.AdapterTypeBinding;
+import com.fongmi.android.tv.utils.ResUtil;
 
 public class TypePresenter extends Presenter {
 

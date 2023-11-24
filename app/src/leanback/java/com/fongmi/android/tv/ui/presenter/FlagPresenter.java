@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.presenter;
+package com.fongmi.android.tv.ui.presenter;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.leanback.widget.Presenter;
 
-import com.github.tvbox.gongjin.bean.Flag;
-import com.github.tvbox.gongjin.databinding.AdapterFlagBinding;
+import com.fongmi.android.tv.bean.Flag;
+import com.fongmi.android.tv.databinding.AdapterFlagBinding;
 
 public class FlagPresenter extends Presenter {
 

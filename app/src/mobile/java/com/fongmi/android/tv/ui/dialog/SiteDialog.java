@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -6,12 +6,12 @@ import android.view.LayoutInflater;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.bean.Site;
-import com.github.tvbox.gongjin.databinding.DialogSiteBinding;
-import com.github.tvbox.gongjin.impl.SiteCallback;
-import com.github.tvbox.gongjin.ui.adapter.SiteAdapter;
-import com.github.tvbox.gongjin.ui.custom.SpaceItemDecoration;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.bean.Site;
+import com.fongmi.android.tv.databinding.DialogSiteBinding;
+import com.fongmi.android.tv.impl.SiteCallback;
+import com.fongmi.android.tv.ui.adapter.SiteAdapter;
+import com.fongmi.android.tv.ui.custom.SpaceItemDecoration;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class SiteDialog implements SiteAdapter.OnClickListener {

@@ -1,10 +1,10 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.github.tvbox.gongjin.App;
+import com.fongmi.android.tv.App;
 import com.google.gson.JsonElement;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;

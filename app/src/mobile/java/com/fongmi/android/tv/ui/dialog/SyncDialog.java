@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -9,21 +9,21 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.Constant;
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.bean.Config;
-import com.github.tvbox.gongjin.bean.Device;
-import com.github.tvbox.gongjin.bean.History;
-import com.github.tvbox.gongjin.bean.Keep;
-import com.github.tvbox.gongjin.cast.ScanEvent;
-import com.github.tvbox.gongjin.cast.ScanTask;
-import com.github.tvbox.gongjin.databinding.DialogDeviceBinding;
-import com.github.tvbox.gongjin.impl.Callback;
-import com.github.tvbox.gongjin.ui.activity.ScanActivity;
-import com.github.tvbox.gongjin.ui.adapter.DeviceAdapter;
-import com.github.tvbox.gongjin.utils.Notify;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.Constant;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.bean.Config;
+import com.fongmi.android.tv.bean.Device;
+import com.fongmi.android.tv.bean.History;
+import com.fongmi.android.tv.bean.Keep;
+import com.fongmi.android.tv.cast.ScanEvent;
+import com.fongmi.android.tv.cast.ScanTask;
+import com.fongmi.android.tv.databinding.DialogDeviceBinding;
+import com.fongmi.android.tv.impl.Callback;
+import com.fongmi.android.tv.ui.activity.ScanActivity;
+import com.fongmi.android.tv.ui.adapter.DeviceAdapter;
+import com.fongmi.android.tv.utils.Notify;
 import com.github.catvod.net.OkHttp;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 

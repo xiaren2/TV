@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.base;
+package com.fongmi.android.tv.ui.base;
 
 public class ViewType {
 

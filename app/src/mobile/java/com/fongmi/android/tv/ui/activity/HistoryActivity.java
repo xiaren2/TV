@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.activity;
+package com.fongmi.android.tv.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,14 +8,14 @@ import android.view.View;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.Product;
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.bean.History;
-import com.github.tvbox.gongjin.databinding.ActivityHistoryBinding;
-import com.github.tvbox.gongjin.event.RefreshEvent;
-import com.github.tvbox.gongjin.ui.adapter.HistoryAdapter;
-import com.github.tvbox.gongjin.ui.base.BaseActivity;
-import com.github.tvbox.gongjin.ui.dialog.SyncDialog;
+import com.fongmi.android.tv.Product;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.bean.History;
+import com.fongmi.android.tv.databinding.ActivityHistoryBinding;
+import com.fongmi.android.tv.event.RefreshEvent;
+import com.fongmi.android.tv.ui.adapter.HistoryAdapter;
+import com.fongmi.android.tv.ui.base.BaseActivity;
+import com.fongmi.android.tv.ui.dialog.SyncDialog;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.greenrobot.eventbus.Subscribe;

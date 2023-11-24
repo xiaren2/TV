@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.player;
+package com.fongmi.android.tv.player;
 
 import android.content.res.Resources;
 import android.text.TextUtils;
@@ -11,7 +11,7 @@ import androidx.media3.common.MimeTypes;
 import androidx.media3.common.util.Util;
 import androidx.media3.ui.R;
 
-import com.github.tvbox.gongjin.App;
+import com.fongmi.android.tv.App;
 
 import java.util.Locale;
 

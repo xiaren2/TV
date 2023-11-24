@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.adapter;
+package com.fongmi.android.tv.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.databinding.AdapterDohBinding;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.databinding.AdapterDohBinding;
 import com.github.catvod.bean.Doh;
 
 import java.util.List;

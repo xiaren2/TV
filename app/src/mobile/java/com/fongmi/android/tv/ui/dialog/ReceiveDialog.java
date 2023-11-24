@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,15 +9,15 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewbinding.ViewBinding;
 
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.bean.History;
-import com.github.tvbox.gongjin.databinding.DialogReceiveBinding;
-import com.github.tvbox.gongjin.event.CastEvent;
-import com.github.tvbox.gongjin.event.RefreshEvent;
-import com.github.tvbox.gongjin.impl.Callback;
-import com.github.tvbox.gongjin.ui.activity.VideoActivity;
-import com.github.tvbox.gongjin.utils.ImgUtil;
-import com.github.tvbox.gongjin.utils.Notify;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.bean.History;
+import com.fongmi.android.tv.databinding.DialogReceiveBinding;
+import com.fongmi.android.tv.event.CastEvent;
+import com.fongmi.android.tv.event.RefreshEvent;
+import com.fongmi.android.tv.impl.Callback;
+import com.fongmi.android.tv.ui.activity.VideoActivity;
+import com.fongmi.android.tv.utils.ImgUtil;
+import com.fongmi.android.tv.utils.Notify;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class ReceiveDialog extends BaseDialog {

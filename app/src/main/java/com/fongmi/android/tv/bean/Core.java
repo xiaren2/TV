@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.Signature;
@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.github.tvbox.gongjin.utils.UrlUtil;
+import com.fongmi.android.tv.utils.UrlUtil;
 import com.fongmi.hook.PackageManager;
 import com.google.gson.annotations.SerializedName;
 

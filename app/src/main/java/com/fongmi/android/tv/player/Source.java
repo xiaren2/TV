@@ -1,16 +1,16 @@
-package com.github.tvbox.gongjin.player;
+package com.fongmi.android.tv.player;
 
-import com.github.tvbox.gongjin.bean.Channel;
-import com.github.tvbox.gongjin.bean.Result;
-import com.github.tvbox.gongjin.player.extractor.BiliBili;
-import com.github.tvbox.gongjin.player.extractor.Force;
-import com.github.tvbox.gongjin.player.extractor.JianPian;
-import com.github.tvbox.gongjin.player.extractor.Push;
-import com.github.tvbox.gongjin.player.extractor.TVBus;
-import com.github.tvbox.gongjin.player.extractor.Thunder;
-import com.github.tvbox.gongjin.player.extractor.Youtube;
-import com.github.tvbox.gongjin.player.extractor.ZLive;
-import com.github.tvbox.gongjin.utils.UrlUtil;
+import com.fongmi.android.tv.bean.Channel;
+import com.fongmi.android.tv.bean.Result;
+import com.fongmi.android.tv.player.extractor.BiliBili;
+import com.fongmi.android.tv.player.extractor.Force;
+import com.fongmi.android.tv.player.extractor.JianPian;
+import com.fongmi.android.tv.player.extractor.Push;
+import com.fongmi.android.tv.player.extractor.TVBus;
+import com.fongmi.android.tv.player.extractor.Thunder;
+import com.fongmi.android.tv.player.extractor.Youtube;
+import com.fongmi.android.tv.player.extractor.ZLive;
+import com.fongmi.android.tv.utils.UrlUtil;
 
 import java.util.ArrayList;
 import java.util.List;

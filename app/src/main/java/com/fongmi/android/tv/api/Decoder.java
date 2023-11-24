@@ -1,8 +1,8 @@
-package com.github.tvbox.gongjin.api;
+package com.fongmi.android.tv.api;
 
 import android.util.Base64;
 
-import com.github.tvbox.gongjin.utils.UrlUtil;
+import com.fongmi.android.tv.utils.UrlUtil;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Json;
 import com.github.catvod.utils.Path;

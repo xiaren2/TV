@@ -1,15 +1,15 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.view.LayoutInflater;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import com.github.tvbox.gongjin.bean.Config;
-import com.github.tvbox.gongjin.databinding.DialogHistoryBinding;
-import com.github.tvbox.gongjin.impl.ConfigCallback;
-import com.github.tvbox.gongjin.ui.adapter.ConfigAdapter;
-import com.github.tvbox.gongjin.ui.custom.SpaceItemDecoration;
+import com.fongmi.android.tv.bean.Config;
+import com.fongmi.android.tv.databinding.DialogHistoryBinding;
+import com.fongmi.android.tv.impl.ConfigCallback;
+import com.fongmi.android.tv.ui.adapter.ConfigAdapter;
+import com.fongmi.android.tv.ui.custom.SpaceItemDecoration;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class HistoryDialog implements ConfigAdapter.OnClickListener {

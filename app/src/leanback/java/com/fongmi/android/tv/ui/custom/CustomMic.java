@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.custom;
+package com.fongmi.android.tv.ui.custom;
 
 import android.Manifest;
 import android.content.Context;
@@ -16,9 +16,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.fragment.app.FragmentActivity;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.utils.KeyUtil;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.utils.KeyUtil;
+import com.fongmi.android.tv.utils.ResUtil;
 import com.github.bassaer.library.MDColor;
 import com.permissionx.guolindev.PermissionX;
 

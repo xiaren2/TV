@@ -1,9 +1,9 @@
-package com.github.tvbox.gongjin.db.dao;
+package com.fongmi.android.tv.db.dao;
 
 import androidx.room.Dao;
 import androidx.room.Query;
 
-import com.github.tvbox.gongjin.bean.Keep;
+import com.fongmi.android.tv.bean.Keep;
 
 import java.util.List;
 

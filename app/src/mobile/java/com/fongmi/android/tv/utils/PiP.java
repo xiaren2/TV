@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.utils;
+package com.fongmi.android.tv.utils;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -15,10 +15,10 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.StringRes;
 import androidx.media3.ui.R;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.Setting;
-import com.github.tvbox.gongjin.event.ActionEvent;
-import com.github.tvbox.gongjin.receiver.ActionReceiver;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.Setting;
+import com.fongmi.android.tv.event.ActionEvent;
+import com.fongmi.android.tv.receiver.ActionReceiver;
 
 import java.util.ArrayList;
 import java.util.List;

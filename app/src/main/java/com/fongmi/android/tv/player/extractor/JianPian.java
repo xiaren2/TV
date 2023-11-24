@@ -1,8 +1,8 @@
-package com.github.tvbox.gongjin.player.extractor;
+package com.fongmi.android.tv.player.extractor;
 
 import android.net.Uri;
 
-import com.github.tvbox.gongjin.player.Source;
+import com.fongmi.android.tv.player.Source;
 import com.p2p.P2PClass;
 
 import java.net.URLDecoder;

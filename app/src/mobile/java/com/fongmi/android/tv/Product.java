@@ -1,9 +1,9 @@
-package com.github.tvbox.gongjin;
+package com.fongmi.android.tv;
 
 import android.content.Context;
 
-import com.github.tvbox.gongjin.bean.Style;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.bean.Style;
+import com.fongmi.android.tv.utils.ResUtil;
 
 public class Product {
 

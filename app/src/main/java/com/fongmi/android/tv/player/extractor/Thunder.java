@@ -1,11 +1,11 @@
-package com.github.tvbox.gongjin.player.extractor;
+package com.fongmi.android.tv.player.extractor;
 
 import android.net.Uri;
 import android.os.SystemClock;
 
-import com.github.tvbox.gongjin.exception.ExtractException;
-import com.github.tvbox.gongjin.player.Source;
-import com.github.tvbox.gongjin.utils.UrlUtil;
+import com.fongmi.android.tv.exception.ExtractException;
+import com.fongmi.android.tv.player.Source;
+import com.fongmi.android.tv.utils.UrlUtil;
 import com.github.catvod.utils.Path;
 import com.github.catvod.utils.Util;
 import com.xunlei.downloadlib.XLTaskHelper;

@@ -1,6 +1,6 @@
-package com.github.tvbox.gongjin.event;
+package com.fongmi.android.tv.event;
 
-import com.github.tvbox.gongjin.BuildConfig;
+import com.fongmi.android.tv.BuildConfig;
 
 import org.greenrobot.eventbus.EventBus;
 

@@ -1,11 +1,11 @@
-package com.github.tvbox.gongjin.db.dao;
+package com.fongmi.android.tv.db.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.github.tvbox.gongjin.bean.Track;
+import com.fongmi.android.tv.bean.Track;
 
 import java.util.List;
 

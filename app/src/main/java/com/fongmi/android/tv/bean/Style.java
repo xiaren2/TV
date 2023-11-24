@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.github.tvbox.gongjin.ui.base.ViewType;
+import com.fongmi.android.tv.ui.base.ViewType;
 import com.google.gson.annotations.SerializedName;
 
 public class Style implements Parcelable {

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin;
+package com.fongmi.android.tv;
 
 public class Constant {
     //快進時間單位

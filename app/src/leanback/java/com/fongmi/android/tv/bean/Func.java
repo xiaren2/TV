@@ -1,9 +1,9 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.annotation.SuppressLint;
 
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.utils.ResUtil;
 
 public class Func {
 

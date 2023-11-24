@@ -1,7 +1,7 @@
-package com.github.tvbox.gongjin.cast;
+package com.fongmi.android.tv.cast;
 
 import com.android.cast.dlna.dmc.DLNACastManager;
-import com.github.tvbox.gongjin.bean.Device;
+import com.fongmi.android.tv.bean.Device;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,13 +34,13 @@ public class CastDevice {
         return device;
     }
 
-    public List<com.github.tvbox.gongjin.bean.Device> getAll() {
-        List<com.github.tvbox.gongjin.bean.Device> items = new ArrayList<>();
+    public List<com.fongmi.android.tv.bean.Device> getAll() {
+        List<com.fongmi.android.tv.bean.Device> items = new ArrayList<>();
         for (org.fourthline.cling.model.meta.Device<?, ?, ?> item : devices) items.add(create(item));
         return items;
     }
 
-    public List<com.github.tvbox.gongjin.bean.Device> add(org.fourthline.cling.model.meta.Device<?, ?, ?> item) {
+    public List<com.fongmi.android.tv.bean.Device> add(org.fourthline.cling.model.meta.Device<?, ?, ?> item) {
         devices.remove(item);
         devices.add(item);
         return getAll();
@@ -55,7 +55,7 @@ public class CastDevice {
         for (org.fourthline.cling.model.meta.Device<?, ?, ?> device : devices) DLNACastManager.INSTANCE.disconnectDevice(device);
     }
 
-    public org.fourthline.cling.model.meta.Device<?, ?, ?> find(com.github.tvbox.gongjin.bean.Device item) {
+    public org.fourthline.cling.model.meta.Device<?, ?, ?> find(com.fongmi.android.tv.bean.Device item) {
         for (org.fourthline.cling.model.meta.Device<?, ?, ?> device : devices) if (device.getIdentity().getUdn().getIdentifierString().equals(item.getUuid())) return device;
         return null;
     }

@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.content.DialogInterface;
 import android.net.Uri;
@@ -10,13 +10,13 @@ import android.view.inputmethod.EditorInfo;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.databinding.DialogLinkBinding;
-import com.github.tvbox.gongjin.ui.activity.VideoActivity;
-import com.github.tvbox.gongjin.utils.FileChooser;
-import com.github.tvbox.gongjin.utils.Sniffer;
-import com.github.tvbox.gongjin.utils.Util;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.databinding.DialogLinkBinding;
+import com.fongmi.android.tv.ui.activity.VideoActivity;
+import com.fongmi.android.tv.utils.FileChooser;
+import com.fongmi.android.tv.utils.Sniffer;
+import com.fongmi.android.tv.utils.Util;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class LinkDialog {

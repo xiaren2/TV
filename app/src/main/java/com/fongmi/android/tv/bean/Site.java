@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.bean;
+package com.fongmi.android.tv.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.Constant;
-import com.github.tvbox.gongjin.db.AppDatabase;
-import com.github.tvbox.gongjin.gson.ExtAdapter;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.Constant;
+import com.fongmi.android.tv.db.AppDatabase;
+import com.fongmi.android.tv.gson.ExtAdapter;
 import com.github.catvod.utils.Json;
 import com.google.gson.JsonElement;
 import com.google.gson.annotations.JsonAdapter;

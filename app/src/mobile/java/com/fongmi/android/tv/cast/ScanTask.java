@@ -1,8 +1,8 @@
-package com.github.tvbox.gongjin.cast;
+package com.fongmi.android.tv.cast;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.bean.Device;
-import com.github.tvbox.gongjin.server.Server;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.bean.Device;
+import com.fongmi.android.tv.server.Server;
 import com.github.catvod.net.OkHttp;
 
 import java.util.ArrayList;

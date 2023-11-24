@@ -1,4 +1,4 @@
-package com.github.tvbox.gongjin.ui.activity;
+package com.fongmi.android.tv.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -19,19 +19,19 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewpager.widget.ViewPager;
 
-import com.github.tvbox.gongjin.App;
-import com.github.tvbox.gongjin.Constant;
-import com.github.tvbox.gongjin.R;
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.bean.Collect;
-import com.github.tvbox.gongjin.bean.Site;
-import com.github.tvbox.gongjin.databinding.ActivityCollectBinding;
-import com.github.tvbox.gongjin.model.SiteViewModel;
-import com.github.tvbox.gongjin.ui.base.BaseActivity;
-import com.github.tvbox.gongjin.ui.fragment.CollectFragment;
-import com.github.tvbox.gongjin.ui.presenter.CollectPresenter;
-import com.github.tvbox.gongjin.utils.PauseExecutor;
-import com.github.tvbox.gongjin.utils.ResUtil;
+import com.fongmi.android.tv.App;
+import com.fongmi.android.tv.Constant;
+import com.fongmi.android.tv.R;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.bean.Collect;
+import com.fongmi.android.tv.bean.Site;
+import com.fongmi.android.tv.databinding.ActivityCollectBinding;
+import com.fongmi.android.tv.model.SiteViewModel;
+import com.fongmi.android.tv.ui.base.BaseActivity;
+import com.fongmi.android.tv.ui.fragment.CollectFragment;
+import com.fongmi.android.tv.ui.presenter.CollectPresenter;
+import com.fongmi.android.tv.utils.PauseExecutor;
+import com.fongmi.android.tv.utils.ResUtil;
 
 import java.util.ArrayList;
 import java.util.List;

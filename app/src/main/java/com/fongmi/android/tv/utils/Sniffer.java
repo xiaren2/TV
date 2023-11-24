@@ -1,10 +1,10 @@
-package com.github.tvbox.gongjin.utils;
+package com.fongmi.android.tv.utils;
 
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.github.tvbox.gongjin.api.ApiConfig;
-import com.github.tvbox.gongjin.bean.Rule;
+import com.fongmi.android.tv.api.ApiConfig;
+import com.fongmi.android.tv.bean.Rule;
 import com.github.catvod.utils.Util;
 import com.orhanobut.logger.Logger;
 

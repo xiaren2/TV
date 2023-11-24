@@ -16,7 +16,7 @@
         android:paddingEnd="24dp"
         android:paddingBottom="8dp">
 
-        <com.github.tvbox.gongjin.ui.custom.CustomTitleView
+        <com.fongmi.android.tv.ui.custom.CustomTitleView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
 
     </FrameLayout>
 
-    <com.github.tvbox.gongjin.ui.custom.ProgressLayout
+    <com.fongmi.android.tv.ui.custom.ProgressLayout
         android:id="@+id/progressLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -55,5 +55,5 @@
             app:focusOutEnd="true"
             app:focusOutFront="true" />
 
-    </com.github.tvbox.gongjin.ui.custom.ProgressLayout>
+    </com.fongmi.android.tv.ui.custom.ProgressLayout>
 </LinearLayout>

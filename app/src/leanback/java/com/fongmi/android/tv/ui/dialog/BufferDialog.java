@@ -1,14 +1,14 @@
-package com.github.tvbox.gongjin.ui.dialog;
+package com.fongmi.android.tv.ui.dialog;
 
 import android.view.LayoutInflater;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.FragmentActivity;
 
-import com.github.tvbox.gongjin.Setting;
-import com.github.tvbox.gongjin.databinding.DialogBufferBinding;
-import com.github.tvbox.gongjin.impl.BufferCallback;
-import com.github.tvbox.gongjin.utils.KeyUtil;
+import com.fongmi.android.tv.Setting;
+import com.fongmi.android.tv.databinding.DialogBufferBinding;
+import com.fongmi.android.tv.impl.BufferCallback;
+import com.fongmi.android.tv.utils.KeyUtil;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class BufferDialog {
