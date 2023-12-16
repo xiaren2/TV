@@ -22,7 +22,7 @@ public class Sniffer {
     private static final String TAG = Sniffer.class.getSimpleName();
 
     public static final Pattern CLICKER = Pattern.compile("\\[a=cr:(\\{.*?\\})\\/](.*?)\\[\\/a]");
-    public static final Pattern AI_PUSH = Pattern.compile("(http|https|rtmp|rtsp|smb|thunder|magnet|ed2k|mitv|tvbox-xg|jianpian):[^\\s]+", Pattern.MULTILINE);
+    public static final Pattern AI_PUSH = Pattern.compile("(http|https|rtmp|rtsp|smb|thunder|magnet|ed2k|mitv|tvbox-xg|jianpian|video):[^\\s]+", Pattern.MULTILINE);
     public static final Pattern SNIFFER = Pattern.compile("http((?!http).){12,}?\\.(m3u8|mp4|mkv|flv|mp3|m4a|aac)\\?.*|http((?!http).){12,}\\.(m3u8|mp4|mkv|flv|mp3|m4a|aac)|http((?!http).)*?video/tos*");
 
     public static final List<String> THUNDER = Arrays.asList("thunder", "magnet", "ed2k");
@@ -39,7 +39,7 @@ public class Sniffer {
     }
 
     public static boolean isTorrent(String url) {
-        return url.split(";")[0].endsWith(".torrent");
+        return !url.startsWith("magnet") && url.split(";")[0].endsWith(".torrent");
     }
 
     public static boolean isVideoFormat(String url) {
